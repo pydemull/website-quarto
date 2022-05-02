@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Pierre-Yves de Müllenheim"
+  reader-mode: true
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [edit, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right: 
+    - icon: twitter
+      href: https://twitter.com/pydemullenheim
+    - icon: linkedin
+      href: https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572
+    - icon: github
+      href: https://github.com/pydemull
+  page-navigation: true
+  page-footer: 
+    center: "Copyright © 2022 Pierre-Yves de Müllenheim"
+    background: primary
+    foreground: "white"
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,16 @@
+{
+  "hash": "6367c536d8cbccf7b9764b700b734a64",
+  "result": {
+    "markdown": "---\ntitle: \"Movement, Wearables, Programming\"\necho: false\n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}
