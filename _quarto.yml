@@ -26,6 +26,16 @@ website:
     center: "Copyright © 2022 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
+  favicon: logo.png
+  twitter-card: true
+  opengraph: true
+  google-analytics: 
+    tracking-id: "G-7HEZQCLYGS"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    style: headline
+    palette: light
 
 format:
   html:
