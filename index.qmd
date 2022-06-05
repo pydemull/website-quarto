@@ -3,7 +3,7 @@ title: "Movement, Wearables, Programming"
 echo: false
 ---
 
-```{r}
+```{r, fig.width=12}
 #| message: false
 library(dplyr)
 library(tidyr)
