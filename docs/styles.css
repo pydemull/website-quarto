@@ -1,12 +1,10 @@
-/* css styles */
-.nav-footer {
-  padding-top: 1.5em;
+/* navbar title */
+.navbar-title {
+  font-size: 20px;
 }
 
-#references {
-  color: white;
-}
 
+/* website title */
 h1.title {
   font-family: 'Open Sans Condensed', Roboto, Helvetica, Arial, sans;
   font-weight: bold;
@@ -18,4 +16,13 @@ h1.title {
   text-align: center;
 }
 
+/* footer */
+.nav-footer {
+  padding-top: 1.5em;
+}
+
+/* references */
+#references {
+  color: white;
+}
 
