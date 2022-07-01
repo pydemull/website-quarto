@@ -1,7 +1,7 @@
 ---
 title: "Publications"
-bibliography: pubs.bib
-csl: american-chemical-society.csl
+bibliography: pubs/pubs.bib
+csl: csl/pubs.csl
 nocite: '@*'
 ---
 

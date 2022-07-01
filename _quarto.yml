@@ -4,13 +4,16 @@ project:
 
 website:
   title: "Pierre-Yves de Müllenheim"
+  site-url: "https://pydemull.github.io/website-quarto/"
   reader-mode: true
-  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-url: https://github.com/pydemull/website-quarto
   repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: posts.qmd
+        text: Posts
       - about.qmd
       - pubs.qmd
       - coms.qmd
@@ -40,7 +43,7 @@ website:
 format:
   html:
     theme: minty
-    css: styles.css
+    css: css/website.css
     toc: true
 
 editor: visual

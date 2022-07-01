@@ -1,12 +1,13 @@
 /* navbar title */
 .navbar-title {
+  font-weight: bold;
   font-size: 20px;
 }
 
 
 /* website title */
 h1.title {
-  font-family: 'Open Sans Condensed', Roboto, Helvetica, Arial, sans;
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #066666;

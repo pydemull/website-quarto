@@ -148,7 +148,7 @@
   </citation>
   <bibliography second-field-align="flush" entry-spacing="0">
     <sort>
-      <key variable="issued" sort="ascending"/>
+      <key variable="issued" sort="descending"/>
     </sort>
     <layout suffix=".">
       <text variable="citation-number" prefix="(" suffix=") "/>
