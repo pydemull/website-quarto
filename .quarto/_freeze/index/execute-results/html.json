@@ -1,7 +1,7 @@
 {
-  "hash": "ea85fc722b2cd24bcd1b36f786cc138e",
+  "hash": "867ed303e192630630983c00ee8cdf4d",
   "result": {
-    "markdown": "---\ntitle: |\n       |\n       | Movement, Wearables, Programming\necho: false\n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::",
+    "markdown": "---\ntitle: \"Movement, Wearables, Programming\"\necho: false\n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::",
     "supporting": [
       "index_files"
     ],

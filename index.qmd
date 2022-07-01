@@ -1,7 +1,5 @@
 ---
-title: |
-       |
-       | Movement, Wearables, Programming
+title: "Movement, Wearables, Programming"
 echo: false
 ---
 
