@@ -22,6 +22,7 @@ categories:
 bibliography: biblio-content.bib
 csl: ../../csl/posts.csl
 link-citations: true
+image: ../../docs/posts/actigraph-vm-counts/index_files/figure-html/fig-baplots-1.png
 ---
 
 ```{r setup, include = FALSE}
@@ -32,15 +33,15 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 When we measure movement using an ActiGraph accelerometer, we can access two kinds of signals (with GT1M devices and more recent generations of devices): the raw acceleration signal, now expressed in G force units; and the activity counts signal, that describes the amount of body acceleration performed over defined epochs (e.g., 1-s epochs) [@chenTechnologyAccelerometrybasedActivity2005; @johnActiGraphActicalPhysical2012].
 
-Activity counts have been commonly used in physical activity studies to estimate time spent in different movement intensities or total amount of movement performed troughout the day [@bassettAccelerometerbasedPhysicalActivity2015]. In general, the counts of interest are related to the vertical axis or the vector magnitude (VM), VM being the norm of the movement vector defined as $VM = \sqrt{x^2 + y^2 + z^2}$, with $x$, $y$, and $z$ the counts related to each accelerometer axis for each epoch, respectively.
+Activity counts have been commonly used in physical activity studies to estimate time spent in different movement intensities or total amount of movement performed during the day [@bassettAccelerometerbasedPhysicalActivity2015]. In general, the counts of interest are related to the vertical axis or the vector magnitude (VM), VM being the norm of the movement vector defined as $VM = \sqrt{x^2 + y^2 + z^2}$, with $x$, $y$, and $z$ the counts related to each accelerometer axis for each epoch, respectively.
 
 When using an ActiGraph accelerometer, VM can be obtained when exporting data from Actilife software to a spreadseet, as for example when exporting the whole dataset to DataTable format, or when exporting the detected wear time epochs (after wear time analysis) to a simple .csv file. Other software programs allow getting VM data, such as R software along with the `PhysicalActivity` R package [@choiPhysicalActivityProcessAccelerometer2021]. The `PhysicalActivity` package is well known for its implementation of a nonwear time detection algorithm [@choiAssessmentWearNonwear2012b], but this package also contains a specific function (the `readActigraph()` function) to read .agd files and then to compute VM.
 
-An interesting thing with R packages is that code is open, allowing to know exactly what computations are performed when a function returns a result. For example, the `readActigraph()` function from the `PhysicalActivity` package actually uses a `ceiling()` function on the computed VM data. This means that from each inital VM value, the function returns the smallest integer that is not lower than the considered value (e.g., for an initial VM value of 4.33, the function will actually return the value 5). Thus, the VM data that are finally obtained from the `readActigraph()` function are a little transformed. When using Actilife software, it is however more complicated to know what computations are exactly performed when getting VM values. At the end of a personal analysis, I was surprised to see that VM values could be slightly different depending on the procedure used to export data to spreadsheets from Actilife software. Thus, I have performed some analyses to understand how VM values provided by Actilife software are exactly computed and to know to what extent Actilife computation procedures may differ from each other and from other software ressources, specifically the `readActigraph()` function from the `PhysicalActivity` R package.
+An interesting thing with R packages is that code is open, allowing to know exactly what computations are performed when a function returns a result. For example, the `readActigraph()` function from the `PhysicalActivity` package actually uses a `ceiling()` function on the computed VM data. This means that from each inital VM value computed with the function, the function returns at the end the smallest integer that is not lower than the considered value (e.g., for an initial VM value of 4.33, the function will actually return the value 5). Thus, the VM data that are finally obtained from the `readActigraph()` function are a little transformed. When using Actilife software, it is however more complicated to know what computations are exactly performed when getting VM values. At the end of a personal analysis, I was surprised to see that VM values could be slightly different depending on the procedure used to export data to spreadsheets from Actilife software. Thus, I have performed some analyses to understand how VM values provided by Actilife software are exactly computed and to know to what extent Actilife computation procedures may differ from each other and from other software ressources, specifically the `readActigraph()` function from the `PhysicalActivity` R package.
 
 # Methods
 
-Data used in this post were initially obtained following a personnal mesurement of physical behaviour performed using an ActiGraph wGT3X-BT device (sampling rate: 90 Hz) worn at the hip during two weeks. Once the measurement completed, data were downloaded from the device using Actilife software v6.13.4 and two .agd files were created by accumulating activity counts using either 60-s epochs or 1-s epochs, and using the normal filter for both files. Finally, I have produced four differents datasets for both 60-s epochs and 1-epochs:
+Data used in this post were initially obtained following a personnal mesurement of physical behaviour performed using an ActiGraph wGT3X-BT device (sampling rate: 90 Hz) worn at the hip during two weeks. Once the measurement completed, data were downloaded from the device using Actilife software v6.13.4 and two .agd files were created by accumulating activity counts using either 60-s epochs or 1-s epochs, and using the normal filter for both files. Finally, I have produced four different datasets for both 60-s epochs and 1-epochs:
 
 -   A dataset containing VM data computed in R using the VM formula on the .agd file data and a rounding function (2 digits) on the VM values (this procedure is called `basic` thereafter).
 -   A dataset containing VM data computed in R using the `readActigraph()`function from the `PhysicalActivity` R package on the .agd file data (this procedure is called `choi` thereafter).
@@ -72,7 +73,8 @@ library(SimDesign)
 
 ## Below a function to correctly read accelerometer data exported to 'DataTable'
 ## format from Actilife software. This function solves the problem that data are
-## exported from Actilife with quotes for the 'DataTable' format (the function removes the quotes).
+## exported from Actilife with quotes for the 'DataTable' format (the function 
+## removes the quotes).
 read_datatable <- function(file) {
   my_data <- read_csv(file, skip = 10, quote = "")
   my_data2 <- lapply(my_data, function(x) { gsub(",", ".", x) }) %>% as.data.frame()
@@ -83,8 +85,9 @@ read_datatable <- function(file) {
   return(my_data3)
 }
 
-# Import data
-## Datasets with VM obtained using the basic formula of VM (values are rounded with 2 digits)
+# Get data
+## Datasets with VM obtained using the basic formula of VM (values are rounded 
+## with 2 digits)
 basic_60s <- 
   quiet(
     actigraph.sleepr::read_agd("data_60sec.agd") %>%
@@ -105,7 +108,8 @@ basic_1s <-
    filter(days == "2" & wearing == "w")
  )
 
-## Datasets with VM obtained using the readActigraph() function from the PhysicalActivity R package
+## Datasets with VM obtained using the readActigraph() function from the 
+## PhysicalActivity R package
 choi_60s <-
   quiet(
     readActigraph("data_60sec.agd") %>% 
@@ -120,7 +124,8 @@ choi_1s <-
     filter(days == "2" & wearing == "w")
    )
 
-## Dataset with VM obtained after exporting data from Actilife to DataTable format
+## Datasets with VM obtained after exporting data from Actilife to 'DataTable' 
+## format
 dataTable_60s <- 
  quiet(
     read_datatable("data_DataTable_60sec.csv") %>%
@@ -141,7 +146,8 @@ dataTable_1s <-
    filter(days == "2" & wearing == "w")
    )
 
-## Dataset with VM obtained after exporting data from Actilife following wear time analysis
+## Datasets with VM obtained after exporting data from Actilife following wear 
+## time analysis
 WearTimeAnalysis_60s <-
  quiet(
    read_csv("data_WearTimeAnalysis_60sec.csv", skip = 1) %>%
@@ -331,17 +337,17 @@ From @fig-table, we can guess that Actilife software actually uses two different
 -   Method 1: When the decimal part of the initial VM value is \>= 0.5, the value of the integer directly above the initial value of VM is returned;
 -   Method 2: When the decimal part of the initial VM value is \< 0.5, the value of the integer directly below the initial value of VM is returned.
 
-Thus, we can understand why the `choi` procedure provides total VM counts that are clearly larger than those from the other procedures: while the `basic`and `acti_datatable`procedures will keep the decimal part of the initial VM values, the `choi`procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the `acti_weartime` procedure will return either larger VM values or smaller VM values than the initial VM values depending on the decimal part of the initial VM values.
+Thus, we can understand why the `choi` procedure provides total VM counts that are clearly larger than those from the other procedures: while the `basic` and `acti_datatable`procedures will keep the decimal part of the initial VM values, the `choi` procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the `acti_weartime` procedure will return either larger VM values or smaller VM values than the initial VM values depending on if the decimal part of the initial VM values is \>=0.5 or not, respectively.
 
 # Conclusion
 
 In this post, we have seen that two procedures related to Actilife software to export VM data provide different values from each other and also differ from the `readActigraph()` function from the `PhysicalActivity` R package:
 
 -   The `acti_datatable` procedure (DataTable format from Actilife software) only rounds (2 digits) the VM values obtained using the basic VM formula.
--   The `acti_weartime` procedure (data obtained after wear time analysis from Actilife software) returns the integer directly above the initial VM value when the decimal part of the VM value is \>= 0.5, otherwise it returns the integer directly below the initial VM value.
+-   The `acti_weartime` procedure (data obtained after wear time analysis from Actilife software) returns the integer directly above the initial VM value when the decimal part of the initial VM value is \>= 0.5, otherwise it returns the integer directly below the initial VM value.
 -   The `choi` procedure always returns the integer directly above the initial VM value when the decimal part of the initial VM value is \>0.
 
-While the two tested Actilife procedures provide quite similar total VM counts values, the `readActigraph()` function seems to provide clearly larger total VM counts values. However, one could still consider such a difference as trivial. Indeed, the absolute difference of 4222 counts between the `choi` procedure and the `acti_weartime` procedure (when using 1-s epochs) represents only 0.9% of the total VM counts related to the `acti_weartime` procedure over the whole day. We could have the same perspective on the differences observed between total VM counts from the 60-s epoch datasets and 1-s epoch datasets. These differences are clear, but could be considered as trivial compared to the expected absolute value of total VM counts over a whole day. That's being said, if there was no rationale to create such different procedures, it could be good thing to make all of these procedures similar from a computational point of view, for example by keeping the simple rounding procedure of the VM values to not distort the inital data.
+While the two tested Actilife procedures provide quite similar total VM counts values, the `readActigraph()` function seems to provide clearly larger total VM counts values at the end of the day. However, one could still consider such a difference as trivial. Indeed, the absolute difference of 4222 counts between the `choi` procedure and the `acti_weartime` procedure, when using 1-s epochs, represents only 0.9% of the total VM counts related to the `acti_weartime` procedure over the whole day. We could have the same perspective on the differences observed between total VM counts from the 60-s epoch datasets and 1-s epoch datasets. These differences are clear, but could be considered as trivial compared to the expected absolute value of total VM counts over a whole day. That's being said, if there was no rationale to create such different procedures, it could be good thing to make all of these procedures similar from a computational point of view, for example by keeping the simple rounding procedure of the VM values to not distort the inital data.
 
 ### References
 
