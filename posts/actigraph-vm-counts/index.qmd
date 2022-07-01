@@ -22,8 +22,6 @@ categories:
 bibliography: biblio-content.bib
 csl: ../../csl/posts.csl
 link-citations: true
-twitter-card:
-  image: "../../docs/posts/actigraph-vm-counts/index_files/figure-html/fig-baplots-1.png"
 ---
 
 ```{r setup, include = FALSE}
