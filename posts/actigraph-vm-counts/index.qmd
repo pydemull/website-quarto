@@ -22,7 +22,7 @@ categories:
 bibliography: biblio-content.bib
 csl: ../../csl/posts.csl
 link-citations: true
-image: ../../docs/posts/actigraph-vm-counts/index_files/figure-html/fig-baplots-1.png
+image: ../../docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png
 ---
 
 ```{r setup, include = FALSE}
@@ -228,7 +228,7 @@ g1 / g2 & theme(
 )
 ```
 
-@fig-baplots (top panel) shows that total VM counts are different between the tested software procedures. Indeed, total VM counts ranged from 415,312 counts (`acti_weartime` procedure) to 415,600 counts (`choi` procedure) for the 60-s epoch datasets, and from 461,795 counts (`acti_weartime` procedure) to 466,017 counts (`choi` procedure) for the 1-s epoch datasets. @fig-baplots (bottom panel) also shows that the differences between the procedures for total VM counts were higher when using 1-s epochs in comparison with the use of 60-s epochs. This last result may be put into relation with the fact that there were more observations when using 1-epochs compared to 60-s epochs, thus letting more room for total differences. Of note, the `basic` procedure and the `acti_datatable` procedure led to the same results, suggesting that Actilife software uses the VM formula and then a rounding procedure (2 digits) to provide VM values when exporting to DataTable-format spreadsheets.
+@fig-barplots (top panel) shows that total VM counts are different between the tested software procedures. Indeed, total VM counts ranged from 415,312 counts (`acti_weartime` procedure) to 415,600 counts (`choi` procedure) for the 60-s epoch datasets, and from 461,795 counts (`acti_weartime` procedure) to 466,017 counts (`choi` procedure) for the 1-s epoch datasets. @fig-barplots (bottom panel) also shows that the differences between the procedures for total VM counts were higher when using 1-s epochs in comparison with the use of 60-s epochs. This last result may be put into relation with the fact that there were more observations when using 1-epochs compared to 60-s epochs, thus letting more room for total differences. Of note, the `basic` procedure and the `acti_datatable` procedure led to the same results, suggesting that Actilife software uses the VM formula and then a rounding procedure (2 digits) to provide VM values when exporting to DataTable-format spreadsheets.
 
 ```{r}
 # Bar plots analysis
@@ -297,7 +297,7 @@ g4 <-
 ```
 
 ```{r}
-#| label: fig-baplots
+#| label: fig-barplots
 #| fig-cap: "Comparison of total VM counts between the different software procedures"
 #| fig-height: 12
 #| fig-width: 12

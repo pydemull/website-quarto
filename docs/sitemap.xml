@@ -2,50 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pydemull.github.io/website-quarto/about.html</loc>
-<<<<<<< HEAD
-    <lastmod>2022-07-02T08:47:39.778Z</lastmod>
+    <lastmod>2022-07-02T08:56:58.325Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/coms.html</loc>
-    <lastmod>2022-07-02T08:47:44.179Z</lastmod>
+    <lastmod>2022-07-02T08:57:00.761Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/index.html</loc>
-    <lastmod>2022-07-02T08:48:25.339Z</lastmod>
+    <lastmod>2022-07-02T08:57:26.172Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/posts/actigraph-vm-counts/index.html</loc>
-    <lastmod>2022-07-02T08:48:45.037Z</lastmod>
+    <lastmod>2022-07-02T08:57:47.843Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/posts.html</loc>
-    <lastmod>2022-07-02T08:48:37.098Z</lastmod>
+    <lastmod>2022-07-02T08:57:37.898Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/pubs.html</loc>
-    <lastmod>2022-07-02T08:48:15.326Z</lastmod>
-=======
-    <lastmod>2022-07-01T15:10:08.957Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pydemull.github.io/website-quarto/coms.html</loc>
-    <lastmod>2022-07-01T15:10:11.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pydemull.github.io/website-quarto/index.html</loc>
-    <lastmod>2022-07-01T15:10:48.179Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pydemull.github.io/website-quarto/posts/actigraph-vm-counts/index.html</loc>
-    <lastmod>2022-07-01T15:11:31.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pydemull.github.io/website-quarto/posts.html</loc>
-    <lastmod>2022-07-01T15:11:11.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pydemull.github.io/website-quarto/pubs.html</loc>
-    <lastmod>2022-07-01T15:10:36.372Z</lastmod>
->>>>>>> fe66cee94717b498b125e3a12739f85a6b83fe93
+    <lastmod>2022-07-02T08:57:20.844Z</lastmod>
   </url>
 </urlset>
