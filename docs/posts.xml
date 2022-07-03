@@ -31,7 +31,7 @@
 <p>Data used in this post were initially obtained following a personnal mesurement of physical behaviour performed using an ActiGraph wGT3X-BT device (sampling rate: 90 Hz) worn at the hip during two weeks. Once the measurement completed, data were downloaded from the device using Actilife software v6.13.4 and two .agd files were created by accumulating activity counts using either 60-s epochs or 1-s epochs, and using the normal filter for both files. Finally, I have produced four different datasets for both 60-s epochs and 1-epochs:</p>
 <ul>
 <li>A dataset containing VM data computed in R using the VM formula on the .agd file data and a rounding function (2 digits) on the VM values (this procedure is called <code>basic</code> thereafter).</li>
-<li>A dataset containing VM data computed in R using the <code>readActigraph()</code>function from the <code>PhysicalActivity</code> R package on the .agd file data (this procedure is called <code>choi</code> thereafter).</li>
+<li>A dataset containing VM data computed in R using the <code>readActigraph()</code> function from the <code>PhysicalActivity</code> R package on the .agd file data (this procedure is called <code>choi</code> thereafter).</li>
 <li>A dataset containing VM data computed by Actilife software when exporting data to DataTable format (this procedure is called <code>acti_datatable</code> thereafter).</li>
 <li>A dataset containing VM data computed by Actilife software when exporting data after wear time analysis (this procedure is called <code>acti_weartime</code> thereafter).</li>
 </ul>
@@ -336,7 +336,7 @@ font-style: italic;">## Create bar plots</span></span>
 <li>Method 1: When the decimal part of the initial VM value is &gt;= 0.5, the value of the integer directly above the initial value of VM is returned;</li>
 <li>Method 2: When the decimal part of the initial VM value is &lt; 0.5, the value of the integer directly below the initial value of VM is returned.</li>
 </ul>
-<p>Thus, we can understand why the <code>choi</code> procedure provides total VM counts that are clearly larger than those from the other procedures: while the <code>basic</code> and <code>acti_datatable</code>procedures will keep the decimal part of the initial VM values, the <code>choi</code> procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the <code>acti_weartime</code> procedure will return either larger VM values or smaller VM values than the initial VM values depending on if the decimal part of the initial VM values is &gt;=0.5 or not, respectively.</p>
+<p>Thus, we can understand why the <code>choi</code> procedure provides total VM counts that are clearly larger than those from the other procedures: while the <code>basic</code> and <code>acti_datatable</code> procedures will keep the decimal part of the initial VM values, the <code>choi</code> procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the <code>acti_weartime</code> procedure will return either larger VM values or smaller VM values than the initial VM values depending on if the decimal part of the initial VM values is &gt;=0.5 or not, respectively.</p>
 </section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
