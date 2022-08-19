@@ -173,7 +173,7 @@ WearTimeAnalysis_1s <-
 
 # Results & Discussion
 
-@fig-scatter shows the bivariate relationships between the VM values obtained from the different software procedures. The graphics placed in the diagonale of the figure from the top-left corner to the bottom-right corner show the distributions of the counts for the corresponding software procedures without using the y-scale of the figure. Each procedure seems perfectly correlated with each other.
+@fig-scatter shows the bivariate relationships between the VM values obtained from the different software procedures. The graphics placed in the diagonale of the figure from the top-left corner to the bottom-right corner show the distributions of the counts values for the corresponding software procedures without using the y-scale of the figure. Each procedure seems perfectly correlated with each other.
 
 ```{r}
 # Scatter plots analysis
@@ -280,7 +280,8 @@ g3 <-
 g4 <-
   ggplot(data = all_data, aes(x = fct_reorder(factor, diff), y = diff, fill = factor)) +
   geom_bar(stat  = "identity") +
-  geom_text(aes(label = round(diff, 2)), nudge_y = 150, size = 7) +
+  geom_text(aes(label = ifelse(factor == "acti_weartime", "Reference",
+                               round(diff, 2))), nudge_y = 150, size = 7) +
   labs(
     title = "\nDifferences in total VM counts from the acti_weartime procedure",
     fill = "Computation method",
@@ -316,18 +317,18 @@ Now, it remains to investigate what computations may be related to the `acti_wea
 
 ```{r}
 #| label: fig-table
-#| fig-cap: "Sample of VM values from the 60-s datasets obtained with the different software procedures"
+#| fig-cap: "Sample of VM values from the 60-s epoch datasets obtained with the different software procedures"
 #| fig-align: center
 
-table <- (all_60s %>% select(acti_weartime, basic, acti_datatable, choi)) [21:30, ]
+table <- (all_60s %>% select(acti_weartime, acti_datatable, basic, choi)) [21:30, ]
 orange_pal <- function(x) rgb(colorRamp(c("#ffe4cc", "#ff9500"))(x), maxColorValue = 255)
 reactable(table,
       defaultColDef = colDef(align = "center", width = 180),
       columns = list(
-        acti_weartime = colDef(style = function() list(background = "#F0E442")),
-        basic = colDef(style = function() list(background = "#E69F00")),
-        acti_datatable = colDef(style = function() list(background = "#009E73")),
-        choi = colDef(style = function() list(background = "#56B4E9"))
+        acti_weartime = colDef(style = function() list(background = "#56B4E9")),
+        acti_datatable = colDef(style = function() list(background = "#E69F00")),
+        basic = colDef(style = function() list(background = "#009E73")),
+        choi = colDef(style = function() list(background = "#F0E442"))
        )
 )
 ```
@@ -337,11 +338,11 @@ From @fig-table, we can guess that Actilife software actually uses two different
 -   Method 1: When the decimal part of the initial VM value is \>= 0.5, the value of the integer directly above the initial value of VM is returned;
 -   Method 2: When the decimal part of the initial VM value is \< 0.5, the value of the integer directly below the initial value of VM is returned.
 
-Thus, we can understand why the `choi` procedure provides total VM counts that are clearly larger than those from the other procedures: while the `basic` and `acti_datatable` procedures will keep the decimal part of the initial VM values, the `choi` procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the `acti_weartime` procedure will return either larger VM values or smaller VM values than the initial VM values depending on if the decimal part of the initial VM values is \>=0.5 or not, respectively.
+Thus, we can understand why the `choi` procedure provides total VM counts that are clearly larger than those from the other procedures: while the `basic` and `acti_datatable` procedures will keep the decimal part of the initial VM values, the `choi` procedure will always return values larger than the initial values of VM if the decimal part is above 0, while the `acti_weartime` procedure will return either larger VM values or smaller VM values than the initial VM values depending on if the decimal part of the initial VM value is \>=0.5 or not, respectively.
 
 # Conclusion
 
-In this post, we have seen that two procedures related to Actilife software to export VM data provide different values from each other and also differ from the `readActigraph()` function from the `PhysicalActivity` R package:
+In this post, we have seen that two procedures related to Actilife software to export VM data provide different values from each other and also differ from the `readActigraph()` function retrieved from the `PhysicalActivity` R package:
 
 -   The `acti_datatable` procedure (DataTable format from Actilife software) only rounds (2 digits) the VM values obtained using the basic VM formula.
 -   The `acti_weartime` procedure (data obtained after wear time analysis from Actilife software) returns the integer directly above the initial VM value when the decimal part of the initial VM value is \>= 0.5, otherwise it returns the integer directly below the initial VM value.
