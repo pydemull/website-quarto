@@ -153,8 +153,6 @@ cookieconsent.run({
 <meta name="twitter:title" content="Pierre-Yves de Müllenheim - How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package">
 <meta name="twitter:description" content="Multi-panel figure using plots from {corrplot}">
 <meta name="twitter:image" content="https:/pydemull.github.io/website-quarto/docs\posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-9-1.png">
-<meta name="twitter:image-height" content="1344">
-<meta name="twitter:image-width" content="3840">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -280,7 +278,7 @@ cookieconsent.run({
 <h1>The problem</h1>
 <p>Some days ago, I was contacted by a student who wanted to visualize several sets of correlation values on the same figure. Making a multi-panel figure using correlation plots produced from the <a href="https://github.com/taiyun/corrplot"><code>{corrplot}</code></a> package seemed an interesting option. However, I met several unexpected problems to get the desired result. In this post, I share the solutions I have found to finally get a good result after some time spent on the web.</p>
 <p>First, let’s load the packages required for our analyses:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-1_a3105974561a708e6953d9ef71f05c83">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span>
@@ -289,11 +287,11 @@ cookieconsent.run({
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ragg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Second, let’s get some data, here from the <code>{palmerpenguins}</code> package that provides physical characteristics of three species of penguins:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-2_8b0de653c7e3254096f21c867ae67890">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"penguins"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Third, let’s compute correlation matrices putting into relation the physical characteristics for each of the three species of penguins:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-3_5e6678a2faebd0ea3e811859c21d6194">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlation matrix for 'Adelie' specie</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>mat_adelie <span class="ot">&lt;-</span> </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  penguins <span class="sc">%&gt;%</span> </span>
@@ -316,7 +314,7 @@ cookieconsent.run({
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cor</span>(<span class="at">use =</span> <span class="st">"pairwise.complete.obs"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Then, I thought we could simply assign the output of the <code>corrplot()</code> function from the <code>{corrplot}</code> package (i.e., the function that generates the correlation plot) to a name, say <code>p</code>, which could have allow me to use <code>p</code> when building the targeted multi-panel figure. Here the example for the correlation matrix related to the <code>Adelie</code> specie:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-4_f66cc79e8c5662b7bcc857ab2d67e14d">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">corrplot</span>(</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>      mat_adelie, </span>
@@ -331,7 +329,7 @@ cookieconsent.run({
 </div>
 </div>
 <p>Unfortunately, this did not work. <code>p</code> did not return a plot, but the list of the information that were used when generating the plot:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-5_d438cea4b1a962faf1a062b7ddbb4295">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>p</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$corr
@@ -364,7 +362,7 @@ $arg$type
 <section id="the-solutions" class="level1">
 <h1>The solutions</h1>
 <p>At first glance, we could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then we could have stopped after the implementation of the following solution proposed on <a href="https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object">Stack Overflow</a>:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-6_c88a548541081a919433b0dbefe84ffa">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>))</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  mat_adelie, </span>
@@ -402,7 +400,7 @@ $arg$type
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>)) <span class="co"># To clear layout</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>However, one could want to be able to catch the plot from the <code>corrplot()</code> function and to bind it to a name so that it can be used elsewhere in a more complex figure. What I have learnt is that it remains possible to do it by using a customized function that would return the last plot shown in the graphic device, as proposed on <a href="https://stackoverflow.com/questions/65031113/how-to-save-a-plot-created-by-corrplot-function-in-r">Stack Overflow</a>:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-7_904a16e80e449dff4b3152c511876ad0">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>get_corr_plot <span class="ot">&lt;-</span> <span class="cf">function</span>(matrix) {</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">corrplot</span>(</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    matrix,</span>
@@ -421,13 +419,13 @@ $arg$type
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>In the code above, you will notice that the last plot is recorded thanks to the <code>recordPlot()</code> function from the <code>{grDevices}</code> package. The new problem is now that the function returns an object of class <code>recordedplot</code>, which is not yet really interesting to make complex figures as one could want to do with the <code>{cowplot}</code> package for example because the class <code>recordedplot</code> may not be accepted by the package functions. A solution is then to convert the <code>recordedplot</code> object to a <code>grob</code> object using the function <code>as.grob()</code> from the <code>{ggplotify}</code> package, as follows:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-8_e801924dc36e508fb8c23e7ec3c1afaf">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>grob_adelie <span class="ot">&lt;-</span> <span class="fu">as.grob</span>(<span class="sc">~</span><span class="fu">get_corr_plot</span>(<span class="at">matrix =</span> mat_adelie))</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>grob_gentoo <span class="ot">&lt;-</span> <span class="fu">as.grob</span>(<span class="sc">~</span><span class="fu">get_corr_plot</span>(<span class="at">matrix =</span> mat_gentoo))</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>grob_chinstrap <span class="ot">&lt;-</span> <span class="fu">as.grob</span>(<span class="sc">~</span><span class="fu">get_corr_plot</span>(<span class="at">matrix =</span> mat_chinstrap))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>We can finally use the <code>plot_grid()</code> function from the <code>{cowplot}</code> package to draw our final figure:</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-9_e2cd73add87536b820e42e669b019c6e">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>fig <span class="ot">&lt;-</span> <span class="fu">plot_grid</span>(grob_adelie, grob_gentoo, grob_chinstrap, <span class="at">nrow =</span> <span class="dv">1</span>, <span class="at">labels=</span>LETTERS[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="at">label_size =</span> <span class="dv">25</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fig</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
@@ -438,7 +436,7 @@ $arg$type
 <section id="the-final-touch" class="level1">
 <h1>The final touch</h1>
 <p>The graphic device may not always provide an approriate view of the figure. To have more control on this when we want to export the figure, we can use the <code>{ragg}</code> package as follows (maybe several trials and errors when manipulating the width, height, and scaling arguments will be needed to get satisfactory results; for more information, please see the <a href="https://www.tidyverse.org/blog/2020/08/taking-control-of-plot-scaling/">Thomas Lin Pedersen’s post</a>):</p>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-10_aaa18b7a0132438475de2ef16e10639f">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">agg_png</span>(</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"posts/corrplot-multiplots/index_files/figure-html/fig.png"</span>, </span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">width =</span> <span class="dv">21</span>, </span>
@@ -454,7 +452,7 @@ $arg$type
 </section>
 <section id="session-info" class="level1">
 <h1>Session info</h1>
-<div class="cell">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-11_26d5e78ce86a2a7ba4bf9a0ea591c033">
 <div class="cell-output cell-output-stdout">
 <pre><code>R version 4.2.1 (2022-06-23 ucrt)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
@@ -471,7 +469,7 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] ragg_1.2.3           cowplot_1.1.1        ggplotify_0.1.0     
+[1] ragg_1.2.3           ggplotify_0.1.0      cowplot_1.1.1       
 [4] corrplot_0.92        dplyr_1.0.10         palmerpenguins_0.1.1
 
 loaded via a namespace (and not attached):
@@ -479,13 +477,13 @@ loaded via a namespace (and not attached):
  [5] digest_0.6.29      jsonlite_1.8.3     evaluate_0.18      lifecycle_1.0.3   
  [9] tibble_3.1.8       gtable_0.3.1       pkgconfig_2.0.3    rlang_1.0.6       
 [13] cli_3.4.1          DBI_1.1.3          rstudioapi_0.14    yaml_2.3.6        
-[17] xfun_0.34          fastmap_1.1.0      withr_2.5.0        stringr_1.4.1     
-[21] knitr_1.40         systemfonts_1.0.4  generics_0.1.3     vctrs_0.5.0       
-[25] htmlwidgets_1.5.4  gridGraphics_0.5-1 grid_4.2.1         tidyselect_1.2.0  
-[29] glue_1.6.2         R6_2.5.1           textshaping_0.3.6  fansi_1.0.3       
-[33] rmarkdown_2.17     farver_2.1.1       ggplot2_3.4.0      magrittr_2.0.3    
-[37] scales_1.2.1       htmltools_0.5.3    assertthat_0.2.1   colorspace_2.0-3  
-[41] labeling_0.4.2     utf8_1.2.2         stringi_1.7.8      munsell_0.5.0     </code></pre>
+[17] xfun_0.34          fastmap_1.1.0      stringr_1.4.1      knitr_1.40        
+[21] systemfonts_1.0.4  gridGraphics_0.5-1 generics_0.1.3     vctrs_0.5.0       
+[25] htmlwidgets_1.5.4  grid_4.2.1         tidyselect_1.2.0   glue_1.6.2        
+[29] R6_2.5.1           textshaping_0.3.6  fansi_1.0.3        rmarkdown_2.17    
+[33] ggplot2_3.4.0      magrittr_2.0.3     scales_1.2.1       htmltools_0.5.3   
+[37] assertthat_0.2.1   colorspace_2.0-3   utf8_1.2.2         stringi_1.7.8     
+[41] munsell_0.5.0     </code></pre>
 </div>
 </div>
 

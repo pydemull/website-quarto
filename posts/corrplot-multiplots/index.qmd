@@ -9,8 +9,8 @@ format:
     css: ../../css/posts.css
 execute:
   warning: false
-  cache: false
-  freeze: false
+  cache: true
+  freeze: true
 tbl-cap-location: top
 editor: visual
 categories:
