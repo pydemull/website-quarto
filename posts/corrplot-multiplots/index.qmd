@@ -9,7 +9,7 @@ format:
     css: ../../css/posts.css
 execute:
   warning: false
-  cache: true
+  cache: false
   freeze: false
 tbl-cap-location: top
 editor: visual
@@ -22,7 +22,7 @@ image: ../../docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chun
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
 # The problem
@@ -40,30 +40,30 @@ library(cowplot)
 library(ragg)
 ```
 
-Second, let's get some data, here from the `{palmerpenguins}` package that provides anthropometric characteristics of three species of penguins:
+Second, let's get some data, here from the `{palmerpenguins}` package that provides physical characteristics of three species of penguins:
 
 ```{r}
 data("penguins")
 ```
 
-Third, let's compute correlation matrices putting into relation the anthropometric characteristics for each of the three species of penguins:
+Third, let's compute correlation matrices putting into relation the physical characteristics for each of the three species of penguins:
 
 ```{r}
-# Matrix correlation for 'Adelie' specie
+# Correlation matrix for 'Adelie' specie
 mat_adelie <- 
   penguins %>% 
   filter(species == "Adelie") %>%
   select(bill_length_mm: body_mass_g) %>%
   cor(use = "pairwise.complete.obs")
   
-# Matrix correlation for 'Gentoo' specie
+# Correlation matrix for 'Gentoo' specie
 mat_gentoo <- 
   penguins %>% 
   filter(species == "Gentoo") %>%
   select(bill_length_mm: body_mass_g) %>%
   cor(use = "pairwise.complete.obs")
   
-# Matrix correlation for 'Chinstrap' specie
+# Correlation matrix for 'Chinstrap' specie
 mat_chinstrap <- 
   penguins %>% 
   filter(species == "Chinstrap") %>%
@@ -86,15 +86,16 @@ p <-
   )
 ```
 
-Unfortunately, this did not work: `p` did not return a plot, but the list of the information that were used when generating the plot:
+Unfortunately, this did not work. `p` did not return a plot, but the list of the information that were used when generating the plot:
 
 ```{r}
 p
 ```
 
-The reason is that the plot is made "invisible" when it is provided by the `corrplot()` function, making it difficult to catch. 
+The reason is that the plot is made "invisible" when it is provided by the `corrplot()` function, making it impossible to directly catch.
 
 # The solutions
+
 At first glance, we could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then we could have stopped after the implementation of the following solution proposed on [Stack Overflow](https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object):
 
 ```{r}
@@ -176,9 +177,10 @@ fig
 ```
 
 # The final touch
+
 The graphic device may not always provide an approriate view of the figure. To have more control on this when we want to export the figure, we can use the `{ragg}` package as follows (maybe several trials and errors when manipulating the width, height, and scaling arguments will be needed to get satisfactory results; for more information, please see the [Thomas Lin Pedersen's post](https://www.tidyverse.org/blog/2020/08/taking-control-of-plot-scaling/)):
 
-```{r, eval = FALSE}
+```{r, results = FALSE, message = FALSE}
 agg_png(
   "posts/corrplot-multiplots/index_files/figure-html/fig.png", 
   width = 21, 
@@ -192,11 +194,9 @@ dev.off()
 ```
 
 Et voilà, we are done!
-![](posts/corrplot-multiplots/index_files/figure-html/fig.png)
 
 # Session info
 
 ```{r, echo = FALSE}
 sessionInfo()
 ```
-

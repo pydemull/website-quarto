@@ -200,7 +200,19 @@ g1 <-
   geom_point(alpha = 0.4, shape = 16, size = 2) + 
   geom_smooth(method = "lm", se = FALSE, size = 1) + 
   geom_autodensity() +
-  facet_matrix(vars(everything()), layer.diag = 3) +
+  geom_rect(aes(
+    xmin = -Inf, 
+    xmax = Inf, 
+    ymin = -Inf, 
+    ymax = Inf), 
+    fill = "grey90"
+    ) +
+  facet_matrix(
+    vars(everything()), 
+    layer.lower = c(1,2), 
+    layer.diag = 3, 
+    layer.upper = 4, 
+    grid.y.diag = FALSE) +
   labs(title = "60-s epoch VM counts")
 
 g2 <- 
@@ -208,7 +220,19 @@ g2 <-
   geom_point(alpha = 0.4, shape = 16, size = 2) + 
   geom_smooth(method = "lm", se = FALSE, size = 1) + 
   geom_autodensity() +
-  facet_matrix(vars(everything()), layer.diag = 3) +
+  geom_rect(aes(
+    xmin = -Inf, 
+    xmax = Inf, 
+    ymin = -Inf, 
+    ymax = Inf), 
+    fill = "grey90"
+    ) +
+  facet_matrix(
+    vars(everything()), 
+    layer.lower = c(1,2), 
+    layer.diag = 3, 
+    layer.upper = 4, 
+    grid.y.diag = FALSE) +
   labs(title = "\n1-s epoch VM counts")
 
 ```
