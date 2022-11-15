@@ -10,7 +10,239 @@
 <atom:link href="https://pydemull.github.io/website-quarto//posts.xml" rel="self" type="application/rss+xml"/>
 <description>Movement, wearables, programming</description>
 <generator>quarto-0.9.336</generator>
-<lastBuildDate>Thu, 30 Jun 2022 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Nov 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package</title>
+  <dc:creator>Pierre-Yves de Müllenheim</dc:creator>
+  <link>https://pydemull.github.io/website-quarto//posts/corrplot-multiplots/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="the-problem" class="level1">
+<h1>The problem</h1>
+<p>Some days ago, I was contacted by a student who wanted to visualize several sets of correlation values on the same figure. Making a multi-panel figure using correlation plots produced from the <a href="https://github.com/taiyun/corrplot"><code>{corrplot}</code></a> package seemed an interesting option. However, I met several unexpected problems to get the desired result. In this post, I share the solutions I have found to finally get a good result after some time spent on the web.</p>
+<p>First, let’s load the packages required for our analyses:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-1_a3105974561a708e6953d9ef71f05c83">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(palmerpenguins)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(dplyr)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">library</span>(corrplot)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;">library</span>(ggplotify)</span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;">library</span>(cowplot)</span>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;">library</span>(ragg)</span></code></pre></div>
+</div>
+<p>Second, let’s get some data, here from the <code>{palmerpenguins}</code> package that provides anthropometric characteristics of three species of penguins:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-2_8b0de653c7e3254096f21c867ae67890">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;">data</span>(<span class="st" style="color: #20794D;">"penguins"</span>)</span></code></pre></div>
+</div>
+<p>Third, let’s compute correlation matrices putting into relation the anthropometric characteristics for each of the three species of penguins:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-3_67864e7dede377ddb301dac667147b33">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;"># Matrix correlation for 'Adelie' specie</span></span>
+<span id="cb3-2">mat_adelie <span class="ot" style="color: #003B4F;">&lt;-</span> </span>
+<span id="cb3-3">  penguins <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb3-4">  <span class="fu" style="color: #4758AB;">filter</span>(species <span class="sc" style="color: #5E5E5E;">==</span> <span class="st" style="color: #20794D;">"Adelie"</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-5">  <span class="fu" style="color: #4758AB;">select</span>(bill_length_mm<span class="sc" style="color: #5E5E5E;">:</span> body_mass_g) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-6">  <span class="fu" style="color: #4758AB;">cor</span>(<span class="at" style="color: #657422;">use =</span> <span class="st" style="color: #20794D;">"pairwise.complete.obs"</span>)</span>
+<span id="cb3-7">  </span>
+<span id="cb3-8"><span class="co" style="color: #5E5E5E;"># Matrix correlation for 'Gentoo' specie</span></span>
+<span id="cb3-9">mat_gentoo <span class="ot" style="color: #003B4F;">&lt;-</span> </span>
+<span id="cb3-10">  penguins <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb3-11">  <span class="fu" style="color: #4758AB;">filter</span>(species <span class="sc" style="color: #5E5E5E;">==</span> <span class="st" style="color: #20794D;">"Gentoo"</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-12">  <span class="fu" style="color: #4758AB;">select</span>(bill_length_mm<span class="sc" style="color: #5E5E5E;">:</span> body_mass_g) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-13">  <span class="fu" style="color: #4758AB;">cor</span>(<span class="at" style="color: #657422;">use =</span> <span class="st" style="color: #20794D;">"pairwise.complete.obs"</span>)</span>
+<span id="cb3-14">  </span>
+<span id="cb3-15"><span class="co" style="color: #5E5E5E;"># Matrix correlation for 'Chinstrap' specie</span></span>
+<span id="cb3-16">mat_chinstrap <span class="ot" style="color: #003B4F;">&lt;-</span> </span>
+<span id="cb3-17">  penguins <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb3-18">  <span class="fu" style="color: #4758AB;">filter</span>(species <span class="sc" style="color: #5E5E5E;">==</span> <span class="st" style="color: #20794D;">"Chinstrap"</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-19">  <span class="fu" style="color: #4758AB;">select</span>(bill_length_mm<span class="sc" style="color: #5E5E5E;">:</span> body_mass_g) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb3-20">  <span class="fu" style="color: #4758AB;">cor</span>(<span class="at" style="color: #657422;">use =</span> <span class="st" style="color: #20794D;">"pairwise.complete.obs"</span>)</span></code></pre></div>
+</div>
+<p>Then, I thought we could simply assign the output of the <code>corrplot()</code> function from the <code>{corrplot}</code> package (i.e., the function that generates the correlation plot) to a name, say <code>p</code>, which could have allow me to use <code>p</code> when building the targeted multi-panel figure. Here the example for the correlation matrix related to the <code>Adelie</code> specie:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-4_f66cc79e8c5662b7bcc857ab2d67e14d">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">p <span class="ot" style="color: #003B4F;">&lt;-</span></span>
+<span id="cb4-2">    <span class="fu" style="color: #4758AB;">corrplot</span>(</span>
+<span id="cb4-3">      mat_adelie, </span>
+<span id="cb4-4">      <span class="at" style="color: #657422;">method =</span><span class="st" style="color: #20794D;">"color"</span>, </span>
+<span id="cb4-5">      <span class="at" style="color: #657422;">type =</span><span class="st" style="color: #20794D;">"lower"</span>, </span>
+<span id="cb4-6">      <span class="at" style="color: #657422;">tl.col =</span><span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb4-7">      <span class="at" style="color: #657422;">addCoef.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb4-8">      <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>)</span>
+<span id="cb4-9">  )</span></code></pre></div>
+<div class="cell-output-display">
+<p><img src="https://pydemull.github.io/website-quarto//posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Unfortunately, this did not work: <code>p</code> did not return a plot, but the list of the information that were used when generating the plot:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-5_d438cea4b1a962faf1a062b7ddbb4295">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">p</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$corr
+                  bill_length_mm bill_depth_mm flipper_length_mm body_mass_g
+bill_length_mm         1.0000000     0.3914917         0.3257847   0.5488658
+bill_depth_mm          0.3914917     1.0000000         0.3076202   0.5761382
+flipper_length_mm      0.3257847     0.3076202         1.0000000   0.4682017
+body_mass_g            0.5488658     0.5761382         0.4682017   1.0000000
+
+$corrPos
+               xName             yName x y      corr
+1     bill_length_mm    bill_length_mm 1 4 1.0000000
+2     bill_length_mm     bill_depth_mm 1 3 0.3914917
+3     bill_length_mm flipper_length_mm 1 2 0.3257847
+4     bill_length_mm       body_mass_g 1 1 0.5488658
+5      bill_depth_mm     bill_depth_mm 2 3 1.0000000
+6      bill_depth_mm flipper_length_mm 2 2 0.3076202
+7      bill_depth_mm       body_mass_g 2 1 0.5761382
+8  flipper_length_mm flipper_length_mm 3 2 1.0000000
+9  flipper_length_mm       body_mass_g 3 1 0.4682017
+10       body_mass_g       body_mass_g 4 1 1.0000000
+
+$arg
+$arg$type
+[1] "lower"</code></pre>
+</div>
+</div>
+<p>The reason is that the plot is made “invisible” when it is provided by the <code>corrplot()</code> function, making it difficult to catch.</p>
+</section>
+<section id="the-solutions" class="level1">
+<h1>The solutions</h1>
+<p>At first glance, we could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then we could have stopped after the implementation of the following solution proposed on <a href="https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object">Stack Overflow</a>:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-6_c88a548541081a919433b0dbefe84ffa">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;">par</span>(<span class="at" style="color: #657422;">mfrow =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">3</span>))</span>
+<span id="cb7-2"><span class="fu" style="color: #4758AB;">corrplot</span>(</span>
+<span id="cb7-3">  mat_adelie, </span>
+<span id="cb7-4">  <span class="at" style="color: #657422;">method =</span> <span class="st" style="color: #20794D;">"color"</span>, </span>
+<span id="cb7-5">  <span class="at" style="color: #657422;">type =</span> <span class="st" style="color: #20794D;">"lower"</span>, </span>
+<span id="cb7-6">  <span class="at" style="color: #657422;">tl.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-7">  <span class="at" style="color: #657422;">addCoef.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-8">  <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>),</span>
+<span id="cb7-9">  <span class="at" style="color: #657422;">tl.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span>,</span>
+<span id="cb7-10">  <span class="at" style="color: #657422;">number.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span></span>
+<span id="cb7-11">  )</span>
+<span id="cb7-12"><span class="fu" style="color: #4758AB;">corrplot</span>(</span>
+<span id="cb7-13">  mat_gentoo, </span>
+<span id="cb7-14">  <span class="at" style="color: #657422;">method =</span> <span class="st" style="color: #20794D;">"color"</span>, </span>
+<span id="cb7-15">  <span class="at" style="color: #657422;">type =</span> <span class="st" style="color: #20794D;">"lower"</span>, </span>
+<span id="cb7-16">  <span class="at" style="color: #657422;">tl.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-17">  <span class="at" style="color: #657422;">addCoef.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-18">  <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>),</span>
+<span id="cb7-19">  <span class="at" style="color: #657422;">tl.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span>,</span>
+<span id="cb7-20">  <span class="at" style="color: #657422;">number.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span></span>
+<span id="cb7-21">  )</span>
+<span id="cb7-22"><span class="fu" style="color: #4758AB;">corrplot</span>(</span>
+<span id="cb7-23">  mat_chinstrap, </span>
+<span id="cb7-24">  <span class="at" style="color: #657422;">method =</span> <span class="st" style="color: #20794D;">"color"</span>, </span>
+<span id="cb7-25">  <span class="at" style="color: #657422;">type =</span> <span class="st" style="color: #20794D;">"lower"</span>, </span>
+<span id="cb7-26">  <span class="at" style="color: #657422;">tl.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-27">  <span class="at" style="color: #657422;">addCoef.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb7-28">  <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>),</span>
+<span id="cb7-29">  <span class="at" style="color: #657422;">tl.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span>,</span>
+<span id="cb7-30">  <span class="at" style="color: #657422;">number.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span></span>
+<span id="cb7-31">  )</span></code></pre></div>
+<div class="cell-output-display">
+<p><img src="https://pydemull.github.io/website-quarto//posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-6-1.png" class="img-fluid" width="1920"></p>
+</div>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">par</span>(<span class="at" style="color: #657422;">mfrow =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">1</span>)) <span class="co" style="color: #5E5E5E;"># To clear layout</span></span></code></pre></div>
+</div>
+<p>However, one could want to be able to catch the plot from the <code>corrplot()</code> function and to bind it to a name so that it can be used elsewhere in a more complex figure. What I have learnt is that it remains possible to do it by using a customized function that would return the last plot shown in the graphic device, as proposed on <a href="https://stackoverflow.com/questions/65031113/how-to-save-a-plot-created-by-corrplot-function-in-r">Stack Overflow</a>:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-7_904a16e80e449dff4b3152c511876ad0">
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">get_corr_plot <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(matrix) {</span>
+<span id="cb9-2">  <span class="fu" style="color: #4758AB;">corrplot</span>(</span>
+<span id="cb9-3">    matrix,</span>
+<span id="cb9-4">    <span class="at" style="color: #657422;">method =</span> <span class="st" style="color: #20794D;">"color"</span>, </span>
+<span id="cb9-5">    <span class="at" style="color: #657422;">type =</span> <span class="st" style="color: #20794D;">"lower"</span>, </span>
+<span id="cb9-6">    <span class="at" style="color: #657422;">tl.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb9-7">    <span class="at" style="color: #657422;">addCoef.col =</span> <span class="st" style="color: #20794D;">"black"</span>,</span>
+<span id="cb9-8">    <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>),</span>
+<span id="cb9-9">    <span class="at" style="color: #657422;">tl.cex =</span> <span class="dv" style="color: #AD0000;">2</span>,</span>
+<span id="cb9-10">    <span class="at" style="color: #657422;">number.cex =</span> <span class="dv" style="color: #AD0000;">2</span></span>
+<span id="cb9-11">    )</span>
+<span id="cb9-12"></span>
+<span id="cb9-13">  p <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">recordPlot</span>()</span>
+<span id="cb9-14"></span>
+<span id="cb9-15">  <span class="fu" style="color: #4758AB;">return</span>(p)</span>
+<span id="cb9-16">}</span></code></pre></div>
+</div>
+<p>In the code above, you will notice that the last plot is recorded thanks to the <code>recordPlot()</code> function from the <code>{grDevices}</code> package. The new problem is now that the function returns an object of class <code>recordedplot</code>, which is not yet really interesting to make complex figures as one could want to do with the <code>{cowplot}</code> package for example because the class <code>recordedplot</code> may not be accepted by the package functions. A solution is then to convert the <code>recordedplot</code> object to a <code>grob</code> object using the function <code>as.grob()</code> from the <code>{ggplotify}</code> package, as follows:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-8_e801924dc36e508fb8c23e7ec3c1afaf">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">grob_adelie <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.grob</span>(<span class="sc" style="color: #5E5E5E;">~</span><span class="fu" style="color: #4758AB;">get_corr_plot</span>(<span class="at" style="color: #657422;">matrix =</span> mat_adelie))</span>
+<span id="cb10-2">grob_gentoo <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.grob</span>(<span class="sc" style="color: #5E5E5E;">~</span><span class="fu" style="color: #4758AB;">get_corr_plot</span>(<span class="at" style="color: #657422;">matrix =</span> mat_gentoo))</span>
+<span id="cb10-3">grob_chinstrap <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.grob</span>(<span class="sc" style="color: #5E5E5E;">~</span><span class="fu" style="color: #4758AB;">get_corr_plot</span>(<span class="at" style="color: #657422;">matrix =</span> mat_chinstrap))</span></code></pre></div>
+</div>
+<p>We can finally use the <code>plot_grid()</code> function from the <code>{cowplot}</code> package to draw our final figure:</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-9_e2cd73add87536b820e42e669b019c6e">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">fig <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">plot_grid</span>(grob_adelie, grob_gentoo, grob_chinstrap, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">1</span>, <span class="at" style="color: #657422;">labels=</span>LETTERS[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>], <span class="at" style="color: #657422;">label_size =</span> <span class="dv" style="color: #AD0000;">25</span>)</span>
+<span id="cb11-2">fig</span></code></pre></div>
+<div class="cell-output-display">
+<p><img src="https://pydemull.github.io/website-quarto//posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-9-1.png" class="img-fluid" width="1920"></p>
+</div>
+</div>
+</section>
+<section id="the-final-touch" class="level1">
+<h1>The final touch</h1>
+<p>The graphic device may not always provide an approriate view of the figure. To have more control on this when we want to export the figure, we can use the <code>{ragg}</code> package as follows (maybe several trials and errors when manipulating the width, height, and scaling arguments will be needed to get satisfactory results; for more information, please see the <a href="https://www.tidyverse.org/blog/2020/08/taking-control-of-plot-scaling/">Thomas Lin Pedersen’s post</a>):</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-10_0a603f9ecd2d5644e1c9e0535db04819">
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="fu" style="color: #4758AB;">agg_png</span>(</span>
+<span id="cb12-2">  <span class="st" style="color: #20794D;">"posts/corrplot-multiplots/index_files/figure-html/fig.png"</span>, </span>
+<span id="cb12-3">  <span class="at" style="color: #657422;">width =</span> <span class="dv" style="color: #AD0000;">21</span>, </span>
+<span id="cb12-4">  <span class="at" style="color: #657422;">height =</span> <span class="dv" style="color: #AD0000;">7</span>, </span>
+<span id="cb12-5">  <span class="at" style="color: #657422;">units =</span> <span class="st" style="color: #20794D;">"cm"</span>,</span>
+<span id="cb12-6">  <span class="at" style="color: #657422;">res =</span> <span class="dv" style="color: #AD0000;">300</span>,</span>
+<span id="cb12-7">  <span class="at" style="color: #657422;">scaling =</span> <span class="fl" style="color: #AD0000;">0.4</span></span>
+<span id="cb12-8">)</span>
+<span id="cb12-9">fig</span>
+<span id="cb12-10"><span class="fu" style="color: #4758AB;">dev.off</span>()</span></code></pre></div>
+</div>
+<p>Et voilà, we are done! <img src="https://pydemull.github.io/website-quarto//posts\corrplot-multiplots\posts\corrplot-multiplots\index_files\figure-html\fig.png" class="img-fluid"></p>
+</section>
+<section id="session-info" class="level1">
+<h1>Session info</h1>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-11_26d5e78ce86a2a7ba4bf9a0ea591c033">
+<div class="cell-output cell-output-stdout">
+<pre><code>R version 4.2.1 (2022-06-23 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19043)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=French_France.utf8  LC_CTYPE=French_France.utf8   
+[3] LC_MONETARY=French_France.utf8 LC_NUMERIC=C                  
+[5] LC_TIME=French_France.utf8    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ragg_1.2.3           ggplotify_0.1.0      cowplot_1.1.1       
+[4] corrplot_0.92        dplyr_1.0.10         palmerpenguins_0.1.1
+
+loaded via a namespace (and not attached):
+ [1] pillar_1.8.1       compiler_4.2.1     yulab.utils_0.0.5  tools_4.2.1       
+ [5] digest_0.6.29      jsonlite_1.8.3     evaluate_0.18      lifecycle_1.0.3   
+ [9] tibble_3.1.8       gtable_0.3.1       pkgconfig_2.0.3    rlang_1.0.6       
+[13] cli_3.4.1          DBI_1.1.3          rstudioapi_0.14    yaml_2.3.6        
+[17] xfun_0.34          fastmap_1.1.0      stringr_1.4.1      knitr_1.40        
+[21] systemfonts_1.0.4  gridGraphics_0.5-1 generics_0.1.3     vctrs_0.5.0       
+[25] htmlwidgets_1.5.4  grid_4.2.1         tidyselect_1.2.0   glue_1.6.2        
+[29] R6_2.5.1           textshaping_0.3.6  fansi_1.0.3        rmarkdown_2.17    
+[33] ggplot2_3.4.0      magrittr_2.0.3     scales_1.2.1       htmltools_0.5.3   
+[37] assertthat_0.2.1   colorspace_2.0-3   utf8_1.2.2         stringi_1.7.8     
+[41] munsell_0.5.0     </code></pre>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Data visualization</category>
+  <category>Correlation</category>
+  <guid>https://pydemull.github.io/website-quarto//posts/corrplot-multiplots/index.html</guid>
+  <pubDate>Mon, 14 Nov 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://pydemull.github.io/website-quarto///docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png" height="50" width="144"/>
+</item>
 <item>
   <title>Actilife software procedures to get vector magnitude counts: are the computations exactly the same?</title>
   <dc:creator>Pierre-Yves de Müllenheim</dc:creator>

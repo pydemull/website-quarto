@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pydemull.github.io/website-quarto/about.html</loc>
-    <lastmod>2022-10-11T07:46:37.225Z</lastmod>
+    <lastmod>2022-11-15T13:23:27.551Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/coms.html</loc>
-    <lastmod>2022-10-11T07:46:39.431Z</lastmod>
+    <lastmod>2022-11-15T13:23:29.643Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/index.html</loc>
-    <lastmod>2022-10-11T07:47:04.872Z</lastmod>
+    <lastmod>2022-11-15T13:23:43.914Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/posts/actigraph-vm-counts/index.html</loc>
-    <lastmod>2022-10-11T07:47:15.883Z</lastmod>
+    <lastmod>2022-11-15T13:45:47.240Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pydemull.github.io/website-quarto/posts/corrplot-multiplots/index.html</loc>
+    <lastmod>2022-11-15T14:00:50.938Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/posts.html</loc>
-    <lastmod>2022-10-11T07:47:10.461Z</lastmod>
+    <lastmod>2022-11-15T14:00:51.579Z</lastmod>
   </url>
   <url>
     <loc>https://pydemull.github.io/website-quarto/pubs.html</loc>
-    <lastmod>2022-10-11T07:46:58.838Z</lastmod>
+    <lastmod>2022-11-15T13:23:38.438Z</lastmod>
   </url>
 </urlset>

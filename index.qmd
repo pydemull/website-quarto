@@ -1,13 +1,17 @@
 ---
 title: "Movement, Wearables, Programming"
 echo: false
+execute:
+  warning: false
+  cache: true
+  freeze: false
 ---
 
 ```{r, fig.width=12}
 #| message: false
 library(dplyr)
 library(tidyr)
-library(ggplot2)
+suppressWarnings(library(ggplot2))
 library(read.gt3x)
 library(hms)
 library(viridis)
