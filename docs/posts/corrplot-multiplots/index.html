@@ -153,6 +153,8 @@ cookieconsent.run({
 <meta name="twitter:title" content="Pierre-Yves de Müllenheim - How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package">
 <meta name="twitter:description" content="Multi-panel figure using plots from {corrplot}">
 <meta name="twitter:image" content="https:/pydemull.github.io/website-quarto/docs\posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-9-1.png">
+<meta name="twitter:image-height" content="1344">
+<meta name="twitter:image-width" content="3840">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -313,7 +315,7 @@ cookieconsent.run({
 <span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(bill_length_mm<span class="sc">:</span> body_mass_g) <span class="sc">%&gt;%</span></span>
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cor</span>(<span class="at">use =</span> <span class="st">"pairwise.complete.obs"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Then, I thought we could simply assign the output of the <code>corrplot()</code> function from the <code>{corrplot}</code> package (i.e., the function that generates the correlation plot) to a name, say <code>p</code>, which could have allow me to use <code>p</code> when building the targeted multi-panel figure. Here the example for the correlation matrix related to the <code>Adelie</code> specie:</p>
+<p>Then, I thought I could simply assign the output of the <code>corrplot()</code> function from the <code>{corrplot}</code> package (i.e., the function that generates the correlation plot) to a name, say <code>p</code>, which could have allow me to use <code>p</code> when building the targeted multi-panel figure. Here the example for the correlation matrix related to the <code>Adelie</code> specie:</p>
 <div class="cell" data-hash="index_cache/html/unnamed-chunk-4_f66cc79e8c5662b7bcc857ab2d67e14d">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">corrplot</span>(</span>
@@ -361,7 +363,7 @@ $arg$type
 </section>
 <section id="the-solutions" class="level1">
 <h1>The solutions</h1>
-<p>At first glance, we could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then we could have stopped after the implementation of the following solution proposed on <a href="https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object">Stack Overflow</a>:</p>
+<p>At first glance, I could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then I could have stopped after the implementation of the following solution proposed on <a href="https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object">Stack Overflow</a>:</p>
 <div class="cell" data-hash="index_cache/html/unnamed-chunk-6_c88a548541081a919433b0dbefe84ffa">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>))</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(</span>

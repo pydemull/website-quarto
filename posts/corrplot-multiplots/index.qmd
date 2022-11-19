@@ -72,7 +72,7 @@ mat_chinstrap <-
 
 ```
 
-Then, I thought we could simply assign the output of the `corrplot()` function from the `{corrplot}` package (i.e., the function that generates the correlation plot) to a name, say `p`, which could have allow me to use `p` when building the targeted multi-panel figure. Here the example for the correlation matrix related to the `Adelie` specie:
+Then, I thought I could simply assign the output of the `corrplot()` function from the `{corrplot}` package (i.e., the function that generates the correlation plot) to a name, say `p`, which could have allow me to use `p` when building the targeted multi-panel figure. Here the example for the correlation matrix related to the `Adelie` specie:
 
 ```{r}
 p <-
@@ -96,7 +96,7 @@ The reason is that the plot is made "invisible" when it is provided by the `corr
 
 # The solutions
 
-At first glance, we could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then we could have stopped after the implementation of the following solution proposed on [Stack Overflow](https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object):
+At first glance, I could have decided to abandon the idea of using several graphic objects to be combined into a multi-panel figure, and then I could have stopped after the implementation of the following solution proposed on [Stack Overflow](https://stackoverflow.com/questions/27929452/r-return-corrplot-as-object):
 
 ```{r}
 #| fig-height: 7
