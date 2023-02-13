@@ -1,0 +1,55 @@
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #066666;
+}
+
+.authors{
+  font-size: 0.9rem;
+}
+
+.date{
+  font-size: 0.9rem;
+}
+
+.journal{
+  font-size: 0.9rem;
+}
+
+.btn-default{
+  font-size: 0.8rem;
+  color: #56cc9d; 
+  background-color: white; 
+  border-color: #56cc9d;
+  border-radius: 15%;
+}
+
+.btn-default:hover{
+  font-size: 0.8rem;
+  color: white; 
+  background-color: #56cc9d; 
+  border-color: #56cc9d;
+  border-radius: 15%;
+}
+
+a:link {
+  color: #56cc9d; 
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #56cc9d; 
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.btn-default:hover a { 
+  color: white;
+}
