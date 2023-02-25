@@ -262,7 +262,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <!--Authors-->
 <div class="authors">Chaudru S, **de Müllenheim PY**, Le Faucheur A, Kaladji A, Jaquinandi V, Mahé G.</div>
 
--
+<!--Link-->
 <button class="btn-default">
 <a href="https://www.ejves.com/article/S1078-5884(15)00680-2/fulltext">DOI</a>
 </button>
