@@ -5,5 +5,5 @@
 .DS_Store
 *.agd
 *.csv
-
+CNAME
 /.quarto/
