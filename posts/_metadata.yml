@@ -1,0 +1,6 @@
+comments: 
+  utterances: 
+    repo:  pydemull/website-quarto
+format:
+  html:
+    include-after-body: ./footer.html

@@ -27,7 +27,7 @@ website:
       href: https://github.com/pydemull
   page-navigation: true
   page-footer: 
-    center: "Copyright © 2022 Pierre-Yves de Müllenheim"
+    center: "Copyright © 2022-2023 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
   favicon: img/logo.png
