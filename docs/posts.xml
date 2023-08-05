@@ -241,7 +241,7 @@ loaded via a namespace (and not attached):
   <category>Correlation</category>
   <guid>http://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</guid>
   <pubDate>Mon, 14 Nov 2022 23:00:00 GMT</pubDate>
-  <media:content url="http://www.pydemullenheim.com//docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png"/>
+  <media:content url="http://www.pydemullenheim.com//docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png" height="50" width="144"/>
 </item>
 <item>
   <title>Actilife software procedures to get vector magnitude counts: are the computations exactly the same?</title>
@@ -635,7 +635,7 @@ John, D., &amp; Freedson, P. (2012). <span>ActiGraph</span> and <span>Actical</s
   <category>vector magnitude</category>
   <guid>http://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</guid>
   <pubDate>Thu, 30 Jun 2022 22:00:00 GMT</pubDate>
-  <media:content url="http://www.pydemullenheim.com//docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png"/>
+  <media:content url="http://www.pydemullenheim.com//docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
