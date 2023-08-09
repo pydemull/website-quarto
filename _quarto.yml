@@ -18,6 +18,7 @@ website:
       - about.qmd
       - pubs.qmd
       - coms.qmd
+      - in_posts.qmd
     right: 
     - icon: twitter
       href: https://twitter.com/pydemullenheim

@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Pierre-Yves de Müllenheim</title>
-<link>http://www.pydemullenheim.com/posts.html</link>
-<atom:link href="http://www.pydemullenheim.com/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.pydemullenheim.com/posts.html</link>
+<atom:link href="https://www.pydemullenheim.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Movement, wearables, programming</description>
 <generator>quarto-0.9.336</generator>
 <lastBuildDate>Mon, 14 Nov 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package</title>
   <dc:creator>Pierre-Yves de Müllenheim</dc:creator>
-  <link>http://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</link>
+  <link>https://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</link>
   <description><![CDATA[ 
 
 
@@ -70,7 +70,7 @@
 <span id="cb4-8">      <span class="at" style="color: #657422;">mar =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">0</span>)</span>
 <span id="cb4-9">  )</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="http://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Unfortunately, this did not work. <code>p</code> did not return a plot, but the list of the information that were used when generating the plot:</p>
@@ -140,7 +140,7 @@ $arg$type
 <span id="cb7-30">  <span class="at" style="color: #657422;">number.cex =</span> <span class="fl" style="color: #AD0000;">2.5</span></span>
 <span id="cb7-31">  )</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="http://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-6-1.png" class="img-fluid" width="1920"></p>
+<p><img src="https://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-6-1.png" class="img-fluid" width="1920"></p>
 </div>
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">par</span>(<span class="at" style="color: #657422;">mfrow =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">1</span>)) <span class="co" style="color: #5E5E5E;"># To clear layout</span></span></code></pre></div>
 </div>
@@ -174,7 +174,7 @@ $arg$type
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">fig <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">plot_grid</span>(grob_adelie, grob_gentoo, grob_chinstrap, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">1</span>, <span class="at" style="color: #657422;">labels=</span>LETTERS[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>], <span class="at" style="color: #657422;">label_size =</span> <span class="dv" style="color: #AD0000;">25</span>)</span>
 <span id="cb11-2">fig</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="http://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-9-1.png" class="img-fluid" width="1920"></p>
+<p><img src="https://www.pydemullenheim.com/posts\corrplot-multiplots\index_files\figure-html\unnamed-chunk-9-1.png" class="img-fluid" width="1920"></p>
 </div>
 </div>
 </section>
@@ -239,14 +239,14 @@ loaded via a namespace (and not attached):
   <category>R</category>
   <category>Data visualization</category>
   <category>Correlation</category>
-  <guid>http://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</guid>
+  <guid>https://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</guid>
   <pubDate>Mon, 14 Nov 2022 23:00:00 GMT</pubDate>
-  <media:content url="http://www.pydemullenheim.com//docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png" height="50" width="144"/>
+  <media:content url="https://www.pydemullenheim.com//docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Actilife software procedures to get vector magnitude counts: are the computations exactly the same?</title>
   <dc:creator>Pierre-Yves de Müllenheim</dc:creator>
-  <link>http://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</link>
+  <link>https://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</link>
   <description><![CDATA[ 
 
 
@@ -475,7 +475,7 @@ font-style: italic;">## Create scatter plots</span></span>
 <div class="cell-output-display">
 <div id="fig-scatter" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="http://www.pydemullenheim.com/posts\actigraph-vm-counts\index_files\figure-html\fig-scatter-1.png" class="img-fluid figure-img" width="1152"></p>
+<p><img src="https://www.pydemullenheim.com/posts\actigraph-vm-counts\index_files\figure-html\fig-scatter-1.png" class="img-fluid figure-img" width="1152"></p>
 <p></p><p></p>
 </figure>
 </div>
@@ -558,7 +558,7 @@ font-style: italic;">## Create bar plots</span></span>
 <div class="cell-output-display">
 <div id="fig-barplots" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="http://www.pydemullenheim.com/posts\actigraph-vm-counts\index_files\figure-html\fig-barplots-1.png" class="img-fluid figure-img" width="1152"></p>
+<p><img src="https://www.pydemullenheim.com/posts\actigraph-vm-counts\index_files\figure-html\fig-barplots-1.png" class="img-fluid figure-img" width="1152"></p>
 <p></p><p></p>
 </figure>
 </div>
@@ -633,9 +633,9 @@ John, D., &amp; Freedson, P. (2012). <span>ActiGraph</span> and <span>Actical</s
   <category>actilife</category>
   <category>counts</category>
   <category>vector magnitude</category>
-  <guid>http://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</guid>
+  <guid>https://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</guid>
   <pubDate>Thu, 30 Jun 2022 22:00:00 GMT</pubDate>
-  <media:content url="http://www.pydemullenheim.com//docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://www.pydemullenheim.com//docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>
