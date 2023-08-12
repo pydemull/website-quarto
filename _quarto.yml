@@ -13,12 +13,13 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: posts.qmd
-        text: Posts
-      - about.qmd
+        text: Blog posts (EN)
+      - in_posts.qmd
       - pubs.qmd
       - coms.qmd
-      - in_posts.qmd
     right: 
     - icon: twitter
       href: https://twitter.com/pydemullenheim
