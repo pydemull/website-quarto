@@ -6,6 +6,7 @@ website:
   title: "Pierre-Yves de Müllenheim"
   site-url: https://www.pydemullenheim.com
   description: "Movement, wearables, programming"
+  open-graph: true
   reader-mode: true
   repo-url: https://github.com/pydemull/website-quarto
   repo-actions: [edit, issue]
@@ -23,10 +24,16 @@ website:
     right: 
     - icon: twitter
       href: https://twitter.com/pydemullenheim
+    - icon: mastodon
+      href: https://fosstodon.org/@pydemullenheim
     - icon: linkedin
       href: https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572
     - icon: github
       href: https://github.com/pydemull
+    - text: "{{< iconify academicons google-scholar-square size=lg >}}"      
+      href: https://scholar.google.com/citations?hl=fr&user=XrIzAj8AAAAJ
+    - text: "{{< iconify fa6-brands researchgate size=lg >}}"
+      href: https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2
   page-navigation: true
   page-footer: 
     center: "Copyright © 2022-2023 Pierre-Yves de Müllenheim"
@@ -34,7 +41,6 @@ website:
     foreground: "white"
   favicon: img/logo.png
   twitter-card: true
-  opengraph: true
   google-analytics: 
     tracking-id: "G-7HEZQCLYGS"
     anonymize-ip: true

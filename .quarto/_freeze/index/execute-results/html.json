@@ -1,7 +1,7 @@
 {
   "hash": "84618cda8087a19b08c359a16080c028",
   "result": {
-    "markdown": "---\ntitle: \"Movement, Wearables, Programming\"\necho: false\nexecute:\n  warning: false\n  cache: true\n  freeze: false\n---\n\n::: {.cell hash='index_cache/html/unnamed-chunk-1_6450869ed70de84900051b9179b133cd'}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::",
+    "markdown": "---\ntitle: \"Movement, Wearables, Programming\"\necho: false\nexecute:\n  warning: false\n  cache: true\n  freeze: false\n---\n\n::: {.cell hash='index_cache/html/unnamed-chunk-1_6450869ed70de84900051b9179b133cd'}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
@@ -9,6 +9,6 @@
     "includes": {},
     "engineDependencies": {},
     "preserve": {},
-    "postProcess": null
+    "postProcess": true
   }
 }
