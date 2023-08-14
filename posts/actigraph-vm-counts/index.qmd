@@ -18,9 +18,9 @@ categories:
   - actilife
   - counts
   - vector magnitude
-
 bibliography: biblio-content.bib
 csl: ../../csl/posts.csl
+citeproc: true
 link-citations: true
 image: ../../docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png
 ---
@@ -376,5 +376,3 @@ While the two tested Actilife procedures provide quite similar total VM counts v
 
 ### References
 
-::: {#refs}
-:::

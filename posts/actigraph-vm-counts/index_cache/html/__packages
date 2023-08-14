@@ -8,9 +8,7 @@ ggplot2
 ggforce
 patchwork
 forcats
-ggh4x
 colorspace
 colorblindr
 reactable
 SimDesign
-timechange

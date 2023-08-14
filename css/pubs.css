@@ -55,3 +55,8 @@ a:active {
 .btn-default:hover a { 
   color: white;
 }
+
+.nav-footer a {
+    color: #fff;
+}
+

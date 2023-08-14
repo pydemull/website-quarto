@@ -18,8 +18,17 @@ h1.title {
 }
 
 /* footer */
+.footer {
+  height: auto;
+}
+.nav-footer {
+  margin: 0;
+  padding: 0;
+}
 .nav-footer-center {
-  height: auto; 
+  height: auto;
+  padding: 0;
+  min-width: 100%;
   margin: 0;
   auto; display: 
   block;
