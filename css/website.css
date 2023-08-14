@@ -1,7 +1,16 @@
 /* navbar title */
-.navbar-title {
-  font-weight: bold;
-  font-size: 20px;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+     .navbar-title {
+       font-weight: bold;
+       font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 4000px) {
+     .navbar-title {
+       font-weight: bold;
+       font-size: 20px;
+    }
 }
 
 

@@ -1,3 +1,14 @@
+h1.title {
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #066666;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
 .title {
   font-weight: bold;
   font-size: 1.1rem;
