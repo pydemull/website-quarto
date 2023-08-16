@@ -1,5 +1,5 @@
 ---
-title: "Communications (32)"
+title: "Communications (34)"
 css: css/pubs.css
 ---
 
@@ -8,6 +8,32 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 <br>
+
+<!--C34---------------------------------------------------------------------------------------------------->
+<!--Title-->
+<div class="title">Maintien de la condition physique et de l’activité physique à un an chez des patients coronariens ayant suivi un programme de réadaptation cardiaque - APA&CO.</div>
+
+<!--Conference-->
+<div><span class="journal">[Poster] Communication présentée aux 7èmes journées francophones de recherche en soins (JFRS), Angers, France, Juin </span><span class="date">2023.</span></div>
+
+<!--Authors-->
+<div class="authors">Da Ros Vettoretto P, Bouffart A-A, Baron A-C, Gaumé M, **de Müllenheim P-Y**.</div>
+<!-- -------------------------------------------------------------------------------------------------- -->
+<br>
+
+
+<!--C33---------------------------------------------------------------------------------------------------->
+<!--Title-->
+<div class="title">Effets des encouragements sur l'engagement des élèves en course de demi-fond : une étude de cas articulant des données de vitesse et d'expérience.</div>
+
+<!--Conference-->
+<div><span class="journal">[Oral] Communication présentée au colloque Les Méthodes Mixtes de Recherche, Paris, France, Juin </span><span class="date">2023.</span></div>
+
+<!--Authors-->
+<div class="authors">Montois T, **de Müllenheim P-Y**, Terré N.</div>
+<!-- -------------------------------------------------------------------------------------------------- -->
+<br>
+
 
 <!--C32---------------------------------------------------------------------------------------------------->
 <!--Title-->
