@@ -19,8 +19,10 @@ website:
       - href: posts.qmd
         text: Blog posts (EN)
       - in_posts.qmd
-      - pubs.qmd
-      - coms.qmd
+      - href: pubs.qmd
+        text: Publications
+      - href: coms.qmd
+        text: Communications
     right: 
     - icon: twitter
       href: https://twitter.com/pydemullenheim
