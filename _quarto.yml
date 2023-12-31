@@ -25,7 +25,7 @@ website:
         text: Communications
     right: 
     - text: "{{< iconify arcticons bluesky  size=lg >}}"
-      href: https://bsky.app/profile/pydemullenheim.bsky.social
+      href: https://bsky.app/profile/pydemullenheim.com
     - text: "{{< iconify fa6-brands square-x-twitter size=lg >}}"
       href: https://twitter.com/pydemullenheim
     - text: "{{< iconify fa6-brands mastodon size=lg >}}"
