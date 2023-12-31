@@ -24,13 +24,15 @@ website:
       - href: coms.qmd
         text: Communications
     right: 
-    - icon: twitter
+    - text: "{{< iconify arcticons bluesky  size=lg >}}"
+      href: https://bsky.app/profile/pydemullenheim.bsky.social
+    - text: "{{< iconify fa6-brands square-x-twitter size=lg >}}"
       href: https://twitter.com/pydemullenheim
-    - icon: mastodon
+    - text: "{{< iconify fa6-brands mastodon size=lg >}}"
       href: https://fosstodon.org/@pydemullenheim
-    - icon: linkedin
+    - text: "{{< iconify fa6-brands linkedin size=lg >}}"
       href: https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572
-    - icon: github
+    - text: "{{< iconify fa6-brands github size=lg >}}"
       href: https://github.com/pydemull
     - text: "{{< iconify academicons google-scholar-square size=lg >}}"      
       href: https://scholar.google.com/citations?hl=fr&user=XrIzAj8AAAAJ
@@ -41,7 +43,7 @@ website:
     center: "Copyright © 2022-2023 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
-  favicon: img/logo.png
+  favicon: img/logo.ico
   twitter-card: true
   google-analytics: 
     tracking-id: "G-7HEZQCLYGS"
