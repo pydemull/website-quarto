@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn posts (FR)"
+title: "LinkedIn posts"
 css: css/pubs.css
 ---
 
@@ -7,13 +7,23 @@ css: css/pubs.css
 
 <br> <br>
 
+<!--31/12/2023 | My most appreciated readings about open and reproducible research for the year 2023 -->
+
+::: title
+31/12/2023 \| My most appreciated readings about open and reproducible research for the year 2023 <button class="btn-default"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7147294961242165248/">LINK</a> </button>
+:::
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7147294960357179392" height="500" width="100%" frameborder="0" allowfullscreen="" title="Post intégré">
+
+</iframe>
+
 <!--11/08/2023 | Et si on incluait l'évaluation de l'activité physique (AP) dans le dossier médical électronique lors de consultations en soins primaires ? (idées reposant sur le rapport de l'AHA - 2018)-->
 
 ::: title
 11/08/2023 \| Et si on incluait l'évaluation de l'activité physique (AP) dans le dossier médical électronique lors de consultations en soins primaires ? (idées reposant sur le rapport de l'AHA - 2018) <button class="btn-default"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7095907442164682752/">LINK</a> </button>
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7095907440835063808" height="1313" width="100%" frameborder="0" allowfullscreen title="Post intégré">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7095907440835063808" height="800" width="100%" frameborder="0" allowfullscreen title="Post intégré">
 
 </iframe>
 
@@ -23,7 +33,7 @@ css: css/pubs.css
 06/08/2023 \| De l'importance d'étudier les effets sociétaux des interventions promouvant l'activité physique (résumé d'un éditorial publié dans JPAH - 2023) <button class="btn-default"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7094082738349043713/">LINK</a> </button>
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7094082737170460672" height="undefined" width="100%" frameborder="0" allowfullscreen title="Post intégré">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7094082737170460672" height="576" width="100%" frameborder="0" allowfullscreen title="Post intégré">
 
 </iframe>
 
@@ -43,7 +53,7 @@ css: css/pubs.css
 31/07/2023 \| Effet des évènements de vie sur le niveau d'activité physique (résumé du rapport de l'AHA - 2021) <button class="btn-default"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7091892430131601409/">LINK</a> </button>
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7091892429418582016" height="1133" width="100%" frameborder="0" allowfullscreen title="Post intégré">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7091892429418582016" height="576" width="100%" frameborder="0" allowfullscreen title="Post intégré">
 
 </iframe>
 

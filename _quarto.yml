@@ -17,7 +17,7 @@ website:
       - href: about.qmd
         text: About
       - href: posts.qmd
-        text: Blog posts (EN)
+        text: Blog posts
       - in_posts.qmd
       - href: pubs.qmd
         text: Publications
@@ -40,7 +40,7 @@ website:
       href: https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2
   page-navigation: true
   page-footer: 
-    center: "Copyright © 2022-2023 Pierre-Yves de Müllenheim"
+    center: "Copyright © 2022-2024 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
   favicon: img/logo.ico
