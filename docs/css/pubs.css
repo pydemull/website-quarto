@@ -13,18 +13,23 @@ h1.title {
   font-weight: bold;
   font-size: 1.1rem;
   color: #066666;
+  line-height: 1.2;
 }
 
 .authors{
   font-size: 0.9rem;
+  line-height: 1.2;
 }
 
 .date{
   font-size: 0.9rem;
+  line-height: 1.2;
+
 }
 
 .journal{
   font-size: 0.9rem;
+  line-height: 1.2;
 }
 
 .btn-default{
@@ -34,6 +39,7 @@ h1.title {
   border-color: #56cc9d;
   border-radius: 15%;
   height: 30px;
+  margin-top: 0.2rem;
 }
 
 .btn-default:hover{
@@ -71,3 +77,7 @@ a:active {
     color: #fff;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

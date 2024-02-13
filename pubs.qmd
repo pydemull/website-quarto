@@ -10,332 +10,631 @@ knitr::opts_chunk$set(echo = FALSE)
 <br>
 
 <!--P18---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">activAnalyzer: An R Shiny app to analyse ActiGraph accelerometer data and to implement the use of the PROactive Physical Activity in COPD instruments.</div>
+
+::: title
+activAnalyzer: An R Shiny app to analyse ActiGraph accelerometer data and to implement the use of the PROactive Physical Activity in COPD instruments.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">J Open Source Softw. </span><span class="date">2022.</span></div>
+
+<div>
+
+[J Open Source Softw. ]{.journal}[2022.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Chambellan A.</div>
+
+::: authors
+**de Müllenheim PY**, Chambellan A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://joss.theoj.org/papers/10.21105/joss.04741">DOI</a>
-</button>
-<button class="btn-default">
-<a href="https://github.com/pydemull/activAnalyzer">GITHUB</a>
-</button>
-<button class="btn-default">
-<a href="https://zenodo.org/record/7384191#.Y-os45rMJPY">ZENODO</a>
-</button>
-<button class="btn-default">
-<a href="https://cran.r-project.org/web/packages/activAnalyzer/index.html">CRAN</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://joss.theoj.org/papers/10.21105/joss.04741">DOI</a>
+
+</button>
+
+<button class="btn-default">
+
+<a href="https://github.com/pydemull/activAnalyzer">GITHUB</a>
+
+</button>
+
+<button class="btn-default">
+
+<a href="https://zenodo.org/record/7384191#.Y-os45rMJPY">ZENODO</a>
+
+</button>
+
+<button class="btn-default">
+
+<a href="https://cran.r-project.org/web/packages/activAnalyzer/index.html">CRAN</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P17---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Agreement between StepWatch3 and ActiGraph wGT3X+ for measuring step-based metrics in people with peripheral artery disease.</div>
+
+::: title
+Agreement between StepWatch3 and ActiGraph wGT3X+ for measuring step-based metrics in people with peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">J Aging Phys Act. </span><span class="date">2022.</span></div>
+
+<div>
+
+[J Aging Phys Act. ]{.journal}[2022.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Jéhannin P, Le Faucheur A, Chaudru S, Taoum A, Mahé G, **de Müllenheim PY**.</div>
+
+::: authors
+Jéhannin P, Le Faucheur A, Chaudru S, Taoum A, Mahé G, **de Müllenheim PY**.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.humankinetics.com/view/journals/japa/30/2/article-p225.xml">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.humankinetics.com/view/journals/japa/30/2/article-p225.xml">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P16---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">"Should I stay or should I go now?"Recovery time effect on walking capacity in symptomatic peripheral artery disease.</div>
+
+::: title
+"Should I stay or should I go now?"Recovery time effect on walking capacity in symptomatic peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">J Appl Physiol (1985). </span><span class="date">2021.</span></div>
+
+<div>
+
+[J Appl Physiol (1985). ]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Rouvière L, Emily M, Chaudru S, Kaladji A, Mahé G, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Rouvière L, Emily M, Chaudru S, Kaladji A, Mahé G, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00441.2020">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00441.2020">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P15---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Measuring outdoor walking capacities using global positioning system in people with multiple sclerosis: clinical and methodological insights from an exploratory study.</div>
+
+::: title
+Measuring outdoor walking capacities using global positioning system in people with multiple sclerosis: clinical and methodological insights from an exploratory study.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Sensors (Basel). </span><span class="date">2021.</span></div>
+
+<div>
+
+[Sensors (Basel). ]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, **de Müllenheim PY**, On Behalf Of The Socos Group.</div>
+
+::: authors
+Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, **de Müllenheim PY**, On Behalf Of The Socos Group.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.mdpi.com/1424-8220/21/9/3189">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.mdpi.com/1424-8220/21/9/3189">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P14---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Comparison of activity monitors accuracy in assessing intermittent outdoor walking.</div>
+
+::: title
+Comparison of activity monitors accuracy in assessing intermittent outdoor walking.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Med Sci Sports Exerc. </span><span class="date">2021.</span></div>
+
+<div>
+
+[Med Sci Sports Exerc. ]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Taoum A, Chaudru S, **de Müllenheim PY**, Congnard F, Emily M, Noury-Desvaux B, Bickert S, Carrault G, Mahé G, Le Faucheur A.</div>
+
+::: authors
+Taoum A, Chaudru S, **de Müllenheim PY**, Congnard F, Emily M, Noury-Desvaux B, Bickert S, Carrault G, Mahé G, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.lww.com/acsm-msse/Fulltext/2021/06000/Comparison_of_Activity_Monitors_Accuracy_in.23.aspx">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.lww.com/acsm-msse/Fulltext/2021/06000/Comparison_of_Activity_Monitors_Accuracy_in.23.aspx">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P13---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Reporting, analyzing, and interpreting activity monitor data in peripheral artery disease.</div>
+
+::: title
+Reporting, analyzing, and interpreting activity monitor data in peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Ann Vasc Surgs. </span><span class="date">2020.</span></div>
+
+<div>
+
+[Ann Vasc Surgs. ]{.journal}[2020.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Congnard F, Noury-Desvaux B; SOCOS Group.</div>
+
+::: authors
+**de Müllenheim PY**, Congnard F, Noury-Desvaux B; SOCOS Group.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.annalsofvascularsurgery.com/article/S0890-5096(20)30197-7/fulltext">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.annalsofvascularsurgery.com/article/S0890-5096(20)30197-7/fulltext">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P12---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Using wearable monitors to assess daily walking limitations induced by ischemic pain in peripheral artery disease.</div>
+
+::: title
+Using wearable monitors to assess daily walking limitations induced by ischemic pain in peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Scand J Med Sci Sports. </span><span class="date">2019.</span></div>
+
+<div>
+
+[Scand J Med Sci Sports. ]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, Jehannin P, **de Müllenheim PY**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.</div>
+
+::: authors
+Chaudru S, Jehannin P, **de Müllenheim PY**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.13511">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.13511">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P11---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Estimating outdoor walking energy expenditure in non-steady-state conditions.</div>
+
+::: title
+Estimating outdoor walking energy expenditure in non-steady-state conditions.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Med Sci Sports Exerc. </span><span class="date">2019.</span></div>
+
+<div>
+
+[Med Sci Sports Exerc. ]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Noury-Desvaux B, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Noury-Desvaux B, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.lww.com/acsm-msse/pages/articleviewer.aspx?year=2019&issue=07000&article=00025&type=Fulltext">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.lww.com/acsm-msse/pages/articleviewer.aspx?year=2019&issue=07000&article=00025&type=Fulltext">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P10---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Use of a wearable activity monitor in a home-based exercise intervention for peripheral artery disease.</div>
+
+::: title
+Use of a wearable activity monitor in a home-based exercise intervention for peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">JAMA. </span><span class="date">2018.</span></div>
+
+<div>
+
+[JAMA. ]{.journal}[2018.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Abraham P, Noury-Desvaux B.</div>
+
+::: authors
+**de Müllenheim PY**, Abraham P, Noury-Desvaux B.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://jamanetwork.com/journals/jama/article-abstract/2703332">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://jamanetwork.com/journals/jama/article-abstract/2703332">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P9---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Using GPS, accelerometry and heart rate to predict outdoor graded walking energy expenditure.</div>
+
+::: title
+Using GPS, accelerometry and heart rate to predict outdoor graded walking energy expenditure.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">J Sci Med Sport. </span><span class="date">2018.</span></div>
+
+<div>
+
+[J Sci Med Sport. ]{.journal}[2018.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Chaudru S, Emily M, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Chaudru S, Emily M, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.jsams.org/article/S1440-2440(17)31654-7/fulltext">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.jsams.org/article/S1440-2440(17)31654-7/fulltext">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P8---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Accuracy of a low-cost global positioning system receiver for estimating grade during outdoor walking.</div>
+
+::: title
+Accuracy of a low-cost global positioning system receiver for estimating grade during outdoor walking.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Physiol Meas. </span><span class="date">2016.</span></div>
+
+<div>
+
+[Physiol Meas. ]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://iopscience.iop.org/article/10.1088/0967-3334/37/10/1741">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://iopscience.iop.org/article/10.1088/0967-3334/37/10/1741">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P7---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Predicting metabolic rate during level and uphill outdoor walking using a low-cost gps receiver.</div>
+
+::: title
+Predicting metabolic rate during level and uphill outdoor walking using a low-cost gps receiver.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">J Appl Physiol (1985). </span><span class="date">2016.</span></div>
+
+<div>
+
+[J Appl Physiol (1985). ]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Dumond R, Gernigon M, Mahé G, Lavenu A, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Dumond R, Gernigon M, Mahé G, Lavenu A, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00224.2016">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00224.2016">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P6---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Clinical interest of ambulatory assessment of physical activity and walking capacity in peripheral artery disease.</div>
+
+::: title
+Clinical interest of ambulatory assessment of physical activity and walking capacity in peripheral artery disease.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Scand J Med Sci Sports. </span><span class="date">2016.</span></div>
+
+<div>
+
+[Scand J Med Sci Sports. ]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim PY**, Chaudru S, Mahé G, Prioux J, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim PY**, Chaudru S, Mahé G, Prioux J, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.12512">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.12512">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P5---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Training to perform ankle-brachial index: systematic review and perspectives to improve teaching and learning.</div>
+
+::: title
+Training to perform ankle-brachial index: systematic review and perspectives to improve teaching and learning.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Eur J Vasc Endovasc Surg. </span><span class="date">2016.</span></div>
+
+<div>
+
+[Eur J Vasc Endovasc Surg. ]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim PY**, Le Faucheur A, Kaladji A, Jaquinandi V, Mahé G.</div>
+
+::: authors
+Chaudru S, **de Müllenheim PY**, Le Faucheur A, Kaladji A, Jaquinandi V, Mahé G.
+:::
 
 <!--Link-->
+
 <button class="btn-default">
+
 <a href="https://www.ejves.com/article/S1078-5884(15)00680-2/fulltext">DOI</a>
+
 </button>
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>
 
-
 <!--P4---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Knowledge about ankle-brachial index procedure among residents: being experienced is beneficial but is not enough.</div>
+
+::: title
+Knowledge about ankle-brachial index procedure among residents: being experienced is beneficial but is not enough.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Vasa. </span><span class="date">2016.</span></div>
+
+<div>
+
+[Vasa. ]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim PY**, Le Faucheur A, Jaquinandi V, Kaladji A, Mahé G.</div>
+
+::: authors
+Chaudru S, **de Müllenheim PY**, Le Faucheur A, Jaquinandi V, Kaladji A, Mahé G.
+:::
 
 <!--Link-->
+
 <button class="btn-default">
+
 <a href="https://econtent.hogrefe.com/doi/10.1024/0301-1526/a000493">DOI</a>
+
 </button>
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>
 
 <!--P3---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Letter by le faucheur et al regarding articles, "six-minute walk is a better outcome measure than treadmill walking tests in therapeutic trials of patients with peripheral artery disease" and "the treadmill is a better functional test than the 6-minute walk test in therapeutic trials of patients with peripheral artery disease".</div>
+
+::: title
+Letter by le faucheur et al regarding articles, "six-minute walk is a better outcome measure than treadmill walking tests in therapeutic trials of patients with peripheral artery disease" and "the treadmill is a better functional test than the 6-minute walk test in therapeutic trials of patients with peripheral artery disease".
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Circulation. </span><span class="date">2015.</span></div>
+
+<div>
+
+[Circulation. ]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Le Faucheur A, **de Müllenheim PY**, Mahé G.</div>
+
+::: authors
+Le Faucheur A, **de Müllenheim PY**, Mahé G.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.114.012389">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.114.012389">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--P2---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Ankle brachial index teaching: a call for an international action.</div>
+
+::: title
+Ankle brachial index teaching: a call for an international action.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Int J Cardiol. </span><span class="date">2015.</span></div>
+
+<div>
+
+[Int J Cardiol. ]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim PY**, Le Faucheur A, Jaquinandi V, Mahé G.</div>
+
+::: authors
+Chaudru S, **de Müllenheim PY**, Le Faucheur A, Jaquinandi V, Mahé G.
+:::
 
 <!--Link-->
+
 <button class="btn-default">
+
 <a href="https://www.internationaljournalofcardiology.com/article/S0167-5273(15)00255-7/fulltext">DOI</a>
+
 </button>
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>
 
-
 <!--P1---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Effects of recovery mode (active vs. passive) on performance during a short    high-intensity interval training program: a longitudinal study.</div>
+
+::: title
+Effects of recovery mode (active vs. passive) on performance during a short high-intensity interval training program: a longitudinal study.
+:::
 
 <!--Journal & Date-->
-<div><span class="journal">Eur J Appl Physiol. </span><span class="date">2013.</span></div>
+
+<div>
+
+[Eur J Appl Physiol. ]{.journal}[2013.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Ben Abderrahman A, Zouhal H, Chamari K, Thevenet D,  **de Müllenheim PY**, Gastinger S, Tabka Z, Prioux J.</div>
+
+::: authors
+Ben Abderrahman A, Zouhal H, Chamari K, Thevenet D, **de Müllenheim PY**, Gastinger S, Tabka Z, Prioux J.
+:::
 
 <!--Link-->
+
 <button class="btn-default">
+
 <a href="https://link.springer.com/article/10.1007/s00421-012-2556-9">DOI</a>
+
 </button>
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>

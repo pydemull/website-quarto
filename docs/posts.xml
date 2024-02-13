@@ -9,13 +9,14 @@
 <link>https://www.pydemullenheim.com/posts.html</link>
 <atom:link href="https://www.pydemullenheim.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Movement, wearables, programming</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Mon, 14 Nov 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package</title>
   <dc:creator>Pierre-Yves de Müllenheim</dc:creator>
-  <link>https://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</link>
+  <link>https://www.pydemullenheim.com/posts/corrplot-multiplots/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -196,7 +197,11 @@ background-color: null;
 font-style: inherit;">0</span>)</span>
 <span id="cb4-9">  )</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Unfortunately, this did not work. <code>p</code> did not return a plot, but the list of the information that were used when generating the plot:</p>
@@ -390,7 +395,11 @@ background-color: null;
 font-style: inherit;">2.5</span></span>
 <span id="cb7-31">  )</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="1920"></p>
+<div>
+<figure class="figure">
+<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="1920"></p>
+</figure>
+</div>
 </div>
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -534,7 +543,11 @@ background-color: null;
 font-style: inherit;">25</span>)</span>
 <span id="cb11-2">fig</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="1920"></p>
+<div>
+<figure class="figure">
+<p><img src="https://www.pydemullenheim.com/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="1920"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -625,15 +638,16 @@ loaded via a namespace (and not attached):
   <category>R</category>
   <category>Data visualization</category>
   <category>Correlation</category>
-  <guid>https://www.pydemullenheim.com/posts/corrplot-multiplots/index.html</guid>
+  <guid>https://www.pydemullenheim.com/posts/corrplot-multiplots/</guid>
   <pubDate>Mon, 14 Nov 2022 23:00:00 GMT</pubDate>
   <media:content url="https://www.pydemullenheim.com/docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png" height="50" width="144"/>
 </item>
 <item>
   <title>Actilife software procedures to get vector magnitude counts: are the computations exactly the same?</title>
   <dc:creator>Pierre-Yves de Müllenheim</dc:creator>
-  <link>https://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</link>
+  <link>https://www.pydemullenheim.com/posts/actigraph-vm-counts/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -657,7 +671,7 @@ loaded via a namespace (and not attached):
 <p>To explore potential differences in VM values depending on the software procedure that was used, I have performed the followings: scatter plots for bivariate analyses using all the VM values; bar plots to look at the differences in total VM counts; table view to look at a short sample of VM values obtained from each software procedure.</p>
 <p>The R code written to produce data and results can be viewed when clicking on the <strong>Code</strong> buttons in the remaining part of the post.</p>
 <div class="cell" data-hash="index_cache/html/unnamed-chunk-1_c7d674762fd9dc1e8a21da240a18df8a">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -1418,7 +1432,7 @@ font-style: inherit;">"w"</span>)</span>
 <h1>Results &amp; Discussion</h1>
 <p>Figure&nbsp;1 shows the bivariate relationships between the VM values obtained from the different software procedures. The graphics placed in the diagonale of the figure from the top-left corner to the bottom-right corner show the distributions of the counts values for the corresponding software procedures without using the y-scale of the figure. Each procedure seems perfectly correlated with each other.</p>
 <div class="cell" data-hash="index_cache/html/unnamed-chunk-2_4bbf6bdc199319e36fad1dc325a74199">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -1756,17 +1770,21 @@ font-style: inherit;">1-s epoch VM counts"</span>)</span></code></pre></div>
 </div>
 <div class="cell" data-hash="index_cache/html/fig-scatter_d88a2d47df5712c6c78cddb13a9ea2ad">
 <div class="cell-output-display">
-<div id="fig-scatter" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-scatter-1.png" class="img-fluid figure-img" width="1152"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Relationships between the VM values obtained from the different software procedures</figcaption>
+<div id="fig-scatter" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-scatter-1.png" class="img-fluid figure-img" width="1152">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Relationships between the VM values obtained from the different software procedures
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>Figure&nbsp;2 (top panel) shows that total VM counts are different between the tested software procedures. Indeed, total VM counts ranged from 415,312 counts (<code>acti_weartime</code> procedure) to 415,600 counts (<code>choi</code> procedure) for the 60-s epoch datasets, and from 461,795 counts (<code>acti_weartime</code> procedure) to 466,017 counts (<code>choi</code> procedure) for the 1-s epoch datasets. Figure&nbsp;2 (bottom panel) also shows that the differences between the procedures for total VM counts were higher when using 1-s epochs in comparison with the use of 60-s epochs. This last result may be put into relation with the fact that there were more observations when using 1-epochs compared to 60-s epochs, thus letting more room for total differences. Of note, the <code>basic</code> procedure and the <code>acti_datatable</code> procedure led to the same results, suggesting that Actilife software uses the VM formula and then a rounding procedure (2 digits) to provide VM values when exporting to DataTable-format spreadsheets.</p>
 <div class="cell" data-hash="index_cache/html/unnamed-chunk-4_cae6c51050ac0c54f0b1c6df9cf06343">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -2168,17 +2186,21 @@ font-style: inherit;">"bold"</span>)</span>
 </div>
 <div class="cell" data-hash="index_cache/html/fig-barplots_277f2835b72d538a438d7843a8b0da90">
 <div class="cell-output-display">
-<div id="fig-barplots" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" class="img-fluid figure-img" width="1152"></p>
-<figcaption class="figure-caption">Figure&nbsp;2: Comparison of total VM counts between the different software procedures</figcaption>
+<div id="fig-barplots" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-barplots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" class="img-fluid figure-img" width="1152">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barplots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Comparison of total VM counts between the different software procedures
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>Now, it remains to investigate what computations may be related to the <code>acti_weartime</code> procedure and why there were such differences between the various computation procedures. To do this, let’s take a look at a sample of VM values from the different datasets with 60-s epochs (Figure&nbsp;3).</p>
 <div class="cell" data-layout-align="center" data-hash="index_cache/html/fig-table_1594ff21db517ccace01e48ab10b04ae">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">table <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -2296,12 +2318,15 @@ font-style: inherit;">"#F0E442"</span>))</span>
 <span id="cb4-10">       )</span>
 <span id="cb4-11">)</span></code></pre></div>
 </details>
-<div id="fig-table" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-
+<div id="fig-table" class="cell-output-display quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ef7f51c9961323f3a32c" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-ef7f51c9961323f3a32c">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"acti_weartime":[1071,466,1401,1725,1140,444,2387,1546,613,417],"acti_datatable":[1070.5,465.72,1400.83,1724.55,1140.23,443.81,2387.33,1545.87,613.42,416.55],"basic":[1070.5,465.72,1400.83,1724.55,1140.23,443.81,2387.33,1545.87,613.42,416.55],"choi":[1071,466,1401,1725,1141,444,2388,1546,614,417]},"columns":[{"id":"acti_weartime","name":"acti_weartime","type":"numeric","width":180,"align":"center","style":[{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"},{"background":"#56B4E9"}]},{"id":"acti_datatable","name":"acti_datatable","type":"numeric","width":180,"align":"center","style":[{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"},{"background":"#E69F00"}]},{"id":"basic","name":"basic","type":"numeric","width":180,"align":"center","style":[{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"},{"background":"#009E73"}]},{"id":"choi","name":"choi","type":"numeric","width":180,"align":"center","style":[{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"},{"background":"#F0E442"}]}],"dataKey":"f0a69832176504766ce500f4ca7d4eb7"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
-<figcaption class="figure-caption">Figure&nbsp;3: Sample of VM values from the 60-s epoch datasets obtained with the different software procedures</figcaption>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Sample of VM values from the 60-s epoch datasets obtained with the different software procedures
+</figcaption>
 </figure>
 </div>
 </div>
@@ -2329,7 +2354,7 @@ font-style: inherit;">"#F0E442"</span>))</span>
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-bassettAccelerometerbasedPhysicalActivity2015" class="csl-entry">
 Bassett, D. R., Troiano, R. P., Mcclain, J. J., &amp; Wolff, D. L. (2015). Accelerometer-based physical activity: Total volume per day and standardized measures. <em>Med Sci Sports Exerc</em>, <em>47</em>(4), 833–838. <a href="https://doi.org/10.1249/MSS.0000000000000468">https://doi.org/10.1249/MSS.0000000000000468</a>
 </div>
@@ -2350,7 +2375,7 @@ John, D., &amp; Freedson, P. (2012). <span>ActiGraph</span> and <span>Actical</s
   <category>actilife</category>
   <category>counts</category>
   <category>vector magnitude</category>
-  <guid>https://www.pydemullenheim.com/posts/actigraph-vm-counts/index.html</guid>
+  <guid>https://www.pydemullenheim.com/posts/actigraph-vm-counts/</guid>
   <pubDate>Thu, 30 Jun 2022 22:00:00 GMT</pubDate>
   <media:content url="https://www.pydemullenheim.com/docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png" height="144" width="144"/>
 </item>

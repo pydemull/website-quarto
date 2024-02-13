@@ -1,5 +1,5 @@
 ---
-title: "Communications (34)"
+title: "Communications (36)"
 css: css/pubs.css
 ---
 
@@ -9,469 +9,974 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <br>
 
-<!--C34---------------------------------------------------------------------------------------------------->
+<!--C36---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Maintien de la condition physique et de l’activité physique à un an chez des patients coronariens ayant suivi un programme de réadaptation cardiaque - APA&CO.</div>
+
+::: title
+Validité et reproductibilité d’une évaluation isométrique de la force des extenseurs du tronc à l’aide d’un dynamomètre à traction (K-Force Link).
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée aux 7èmes journées francophones de recherche en soins (JFRS), Angers, France, Juin </span><span class="date">2023.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 20ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Reims, France, Octobre]{.journal}[2023.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Da Ros Vettoretto P, Bouffart A-A, Baron A-C, Gaumé M, **de Müllenheim P-Y**.</div>
+
+::: authors
+Pinochet C, Petit P, Houedakor J, Piette P, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
+:::
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>
 
+<!--C35---------------------------------------------------------------------------------------------------->
+
+<!--Title-->
+
+::: title
+Effets d'une intervention en activité physique adaptée sur les paramètres cardiorespiratoires de patients atteints de lymphome en fonction de leur parcours de soins.
+:::
+
+<!--Conference-->
+
+<div>
+
+[\[Oral\] Communication présentée au Colloque Fatigues liées au cancer et activités physiques adaptées : approches pluridisciplinaires, Le Mans, France, Septembre]{.journal}[2023.]{.date}
+
+</div>
+
+<!--Authors-->
+
+::: authors
+Bodiner T, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux B.
+:::
+
+<!------------------------------------------------------------------------------------------------------>
+
+<br>
+
+<!--C34---------------------------------------------------------------------------------------------------->
+
+<!--Title-->
+
+::: title
+Maintien de la condition physique et de l'activité physique à un an chez des patients coronariens ayant suivi un programme de réadaptation cardiaque - APA&CO.
+:::
+
+<!--Conference-->
+
+<div>
+
+[\[Poster\] Communication présentée aux 7èmes journées francophones de recherche en soins (JFRS), Angers, France, Juin]{.journal}[2023.]{.date}
+
+</div>
+
+<!--Authors-->
+
+::: authors
+Da Ros Vettoretto P, Bouffart A-A, Baron A-C, Gaumé M, **de Müllenheim P-Y**.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C33---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Effets des encouragements sur l'engagement des élèves en course de demi-fond : une étude de cas articulant des données de vitesse et d'expérience.</div>
+
+::: title
+Effets des encouragements sur l'engagement des élèves en course de demi-fond : une étude de cas articulant des données de vitesse et d'expérience.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au colloque Les Méthodes Mixtes de Recherche, Paris, France, Juin </span><span class="date">2023.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au colloque Les Méthodes Mixtes de Recherche, Paris, France, Juin]{.journal}[2023.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Montois T, **de Müllenheim P-Y**, Terré N.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Montois T, **de Müllenheim P-Y**, Terré N.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C32---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">activAnalyzer : une application pour faciliter l’accès à la mesure de l’activité physique et l’utilisation des questionnaires PROactive à partir de l’accéléromètre ActiGraph® dans la BPCO.</div>
+
+::: title
+activAnalyzer : une application pour faciliter l'accès à la mesure de l'activité physique et l'utilisation des questionnaires PROactive à partir de l'accéléromètre ActiGraph® dans la BPCO.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée aux 14èmes journées francophones ALVÉOLE, Nantes, France, Mars </span><span class="date">2022.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée aux 14èmes journées francophones ALVÉOLE, Nantes, France, Mars]{.journal}[2022.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Congnard F, Noury-Desvaux B, Masson N, Chambellan A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Congnard F, Noury-Desvaux B, Masson N, Chambellan A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C31---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Is Afghan walking sessions integration of interest for COPD patients rehabilitation?</div>
+
+::: title
+Is Afghan walking sessions integration of interest for COPD patients rehabilitation?
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre </span><span class="date">2021.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Triballier P, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Triballier P, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C30---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Automated event-based algorithm for quantifying daily life ischemic events in peripheral artery disease.</div>
+
+::: title
+Automated event-based algorithm for quantifying daily life ischemic events in peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication presented at the 7th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Virtual, June </span><span class="date">2021.</span></div>
+
+<div>
+
+[\[Poster\] Communication presented at the 7th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Virtual, June]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Taoum A, Jéhannin P, Chaudru S, **de Müllenheim P-Y**, Mahé G, Le Faucheur A.</div>
+
+::: authors
+Taoum A, Jéhannin P, Chaudru S, **de Müllenheim P-Y**, Mahé G, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://journals.humankinetics.com/view/journals/jmpb/4/S1/article-pS1.xml">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://journals.humankinetics.com/view/journals/jmpb/4/S1/article-pS1.xml">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C29---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Predicting percentage of heart rate reserve and rating of perceived exertion during bench stepping in young adults: preliminary data.</div>
+
+::: title
+Predicting percentage of heart rate reserve and rating of perceived exertion during bench stepping in young adults: preliminary data.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre </span><span class="date">2021.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Paquet S, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Paquet S, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C28---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Evaluation de l'épaule du handballeur : un outil simple pour une nouvelle approche.</div>
+
+::: title
+Evaluation de l'épaule du handballeur : un outil simple pour une nouvelle approche.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 14ème congrès de la Société Française de Médecine de l’Exercice et du Sport (SFMES) et de la Société Française de Traumatologie du Sport (SFTS), Montrouge, France, Septembre </span><span class="date">2021.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 14ème congrès de la Société Française de Médecine de l'Exercice et du Sport (SFMES) et de la Société Française de Traumatologie du Sport (SFTS), Montrouge, France, Septembre]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Leroux E, Bickert S, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Leroux E, Bickert S, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C27---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Effet du ratio temps d’effort : temps de récupération sur la capacité de marche de patients atteints d’une artériopathie oblitérante des membres inférieurs symptomatique.</div>
+
+::: title
+Effet du ratio temps d'effort : temps de récupération sur la capacité de marche de patients atteints d'une artériopathie oblitérante des membres inférieurs symptomatique.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée aux XXe journées d'études francophones en activités physiques adaptées, Caen, France, Mai </span><span class="date">2021.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée aux XXe journées d'études francophones en activités physiques adaptées, Caen, France, Mai]{.journal}[2021.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Rouvière L, Emily M, Adrien Kaladji, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Rouvière L, Emily M, Adrien Kaladji, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C26---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Le Y-Balance Test : outil d’évaluation et d’amélioration de l’équilibre dynamique ?</div>
+
+::: title
+Le Y-Balance Test : outil d'évaluation et d'amélioration de l'équilibre dynamique ?
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre </span><span class="date">2020.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal}[2020.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Le Corre G, Michel C, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Le Corre G, Michel C, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C25---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Comparaison du StepWatch3 à l’ActiGraph wGT3X+ pour la mesure d’indicateurs liés aux pas chez des patients atteints d’une artériopathie oblitérante des membres inférieurs.</div>
+
+::: title
+Comparaison du StepWatch3 à l'ActiGraph wGT3X+ pour la mesure d'indicateurs liés aux pas chez des patients atteints d'une artériopathie oblitérante des membres inférieurs.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 1e colloque Les rencontres scientifiques de l'IFEPSA ("Sport, Corps, et Evaluation"), Les Ponts-de-Cé, France, Décembre </span><span class="date">2020.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 1e colloque Les rencontres scientifiques de l'IFEPSA ("Sport, Corps, et Evaluation"), Les Ponts-de-Cé, France, Décembre]{.journal}[2020.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Jéhannin P, Chaudru S, Taoum A, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Jéhannin P, Chaudru S, Taoum A, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C24---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Influence de la maturation biologique sur l’équilibre dynamique de jeunes joueurs de Football.</div>
+
+::: title
+Influence de la maturation biologique sur l'équilibre dynamique de jeunes joueurs de Football.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre </span><span class="date">2020.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal}[2020.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chataigner N, Mironnet M, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Chataigner N, Mironnet M, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C23---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Suivi d'un programme d'éducation thérapeutique visant l'amélioration du profil anthropométrique et de la condition physique chez des adultes obèses.</div>
+
+::: title
+Suivi d'un programme d'éducation thérapeutique visant l'amélioration du profil anthropométrique et de la condition physique chez des adultes obèses.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Simon D, **de Müllenheim P-Y**, Sallé A, Recoing B, Congnard F, Noury-Desvaux B.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Simon D, **de Müllenheim P-Y**, Sallé A, Recoing B, Congnard F, Noury-Desvaux B.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C22---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">L’électrostimulation via VEINOPLUS® Sport à la mi-temps d’un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?</div>
+
+::: title
+L'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Pousset T, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Pousset T, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C21---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Validité clinique d’une nouvelle méthode d’évaluation ambulatoire du temps de marche sans douleur et du temps maximal de marche par couplage de moniteurs d’activité chez des patients artériopathes.</div>
+
+::: title
+Validité clinique d'une nouvelle méthode d'évaluation ambulatoire du temps de marche sans douleur et du temps maximal de marche par couplage de moniteurs d'activité chez des patients artériopathes.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 18ème congrès de la Société française de la médecine vasculaire (SFMV), Strasbourg, France, Septembre </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 18ème congrès de la Société française de la médecine vasculaire (SFMV), Strasbourg, France, Septembre]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C20---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Comparison between an activity diary and an hip-worn accelerometer to estimate physical activity pattern in peripheral artery disease.</div>
+
+::: title
+Comparison between an activity diary and an hip-worn accelerometer to estimate physical activity pattern in peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 18th congress of the Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, October </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 18th congress of the Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, October]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C19---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill walking, outdoor level walking, and daily living conditions in patients with symptomatic peripheral artery disease.</div>
+
+::: title
+Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill walking, outdoor level walking, and daily living conditions in patients with symptomatic peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication presented at the 6th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Maastricht, Netherlands, June </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Poster\] Communication presented at the 6th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Maastricht, Netherlands, June]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C18---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Évaluation de la capacité de marche en extérieur à l’aide du géo-positionnement par satellites (GPS) chez des patients atteints de la sclérose en plaques (SEP) : nouvelle approche méthodologique et exploration de l’intérêt clinique.</div>
+
+::: title
+Évaluation de la capacité de marche en extérieur à l'aide du géo-positionnement par satellites (GPS) chez des patients atteints de la sclérose en plaques (SEP) : nouvelle approche méthodologique et exploration de l'intérêt clinique.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre </span><span class="date">2019.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C17---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Effets de la modalité d'intervention en activité physique adaptée sur la composition corporelle de patients atteints du cancer de la prostate.</div>
+
+::: title
+Effets de la modalité d'intervention en activité physique adaptée sur la composition corporelle de patients atteints du cancer de la prostate.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai </span><span class="date">2018.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal}[2018.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Nouchet C, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.</div>
+
+::: authors
+Nouchet C, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0765159718300947?via%3Dihub">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0765159718300947?via%3Dihub">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C16---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Relation entre le temps passé debout au cours de la journée et les capacités fonctionnelles chez les personnes âgées.</div>
+
+::: title
+Relation entre le temps passé debout au cours de la journée et les capacités fonctionnelles chez les personnes âgées.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai </span><span class="date">2018.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal}[2018.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Martineau C, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux B.</div>
+
+::: authors
+Martineau C, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux B.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0765159718301254?via%3Dihub">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0765159718301254?via%3Dihub">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C15---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Impact of the EGNOS feature and environmental conditions on GPS accuracy during outdoor walking.</div>
+
+::: title
+Impact of the EGNOS feature and environmental conditions on GPS accuracy during outdoor walking.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Poster] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June </span><span class="date">2017.</span></div>
+
+<div>
+
+[\[Poster\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal}[2017.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Noury-Desvaux B.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Noury-Desvaux B.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C14---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Estimating energy expenditure during outdoor level walking using Global Positioning System or accelerometry in patients with peripheral artery disease.</div>
+
+::: title
+Estimating energy expenditure during outdoor level walking using Global Positioning System or accelerometry in patients with peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June </span><span class="date">2017.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal}[2017.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim, P-Y**, Chaudru S, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim, P-Y**, Chaudru S, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C13---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Comparison of GPS, accelerometry, and heart rate for estimating metabolic rate during level and uphill outdoor walking.</div>
+
+::: title
+Comparison of GPS, accelerometry, and heart rate for estimating metabolic rate during level and uphill outdoor walking.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June </span><span class="date">2016.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Le Faucheur A, **de Müllenheim P-Y**, Chaudru S, Emily M, Bickert S, Prioux J, Mahé G, Noury-Desvaux B.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Le Faucheur A, **de Müllenheim P-Y**, Chaudru S, Emily M, Bickert S, Prioux J, Mahé G, Noury-Desvaux B.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C12---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">The relationship between walking capacity and previous stop duration in patients with peripheral artery disease.</div>
+
+::: title
+The relationship between walking capacity and previous stop duration in patients with peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June </span><span class="date">2016.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Emily M, Franconnet M, Moreau R, Prioux J, Mahe G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Emily M, Franconnet M, Moreau R, Prioux J, Mahe G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C11---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Effect of recovery duration on walking capacity after a symptom-limited walk in patients with peripheral artery disease.</div>
+
+::: title
+Effect of recovery duration on walking capacity after a symptom-limited walk in patients with peripheral artery disease.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October </span><span class="date">2016.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Emily M, Franconnet M, Moreau R, Prioux J, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Emily M, Franconnet M, Moreau R, Prioux J, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C10---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Objective quantification of walking pain occurences in free-living condiitons in peripheral artery disease patients.</div>
+
+::: title
+Objective quantification of walking pain occurences in free-living condiitons in peripheral artery disease patients.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October </span><span class="date">2016.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C9---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Assessing free-living walking impairment in peripheral artery disease patients by objectively quantifying walking pain occurence: definition of a methodology using physical activity monitors.</div>
+
+::: title
+Assessing free-living walking impairment in peripheral artery disease patients by objectively quantifying walking pain occurence: definition of a methodology using physical activity monitors.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June </span><span class="date">2016.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C8---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Assessing the impact of environmental conditions on GPS accuracy during human walking.</div>
+
+::: title
+Assessing the impact of environmental conditions on GPS accuracy during human walking.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June </span><span class="date">2015.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Mahé G, Noury-Desvaux B.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Mahé G, Noury-Desvaux B.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C7---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Couplage du géo-positionnement satellitaire, de l’accélérométrie et de la mesure de la fréquence cardiaque dans la détection de différents types d’activités physiques et sédentaires.</div>
+
+::: title
+Couplage du géo-positionnement satellitaire, de l'accélérométrie et de la mesure de la fréquence cardiaque dans la détection de différents types d'activités physiques et sédentaires.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 16ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Nantes, France, Octobre </span><span class="date">2015.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 16ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Nantes, France, Octobre]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Dumond R, Le Faucheur A, **de Müllenheim P-Y**, Abdul Rahman H, Mahé G, Noury-Desvaux B, Prioux J.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Dumond R, Le Faucheur A, **de Müllenheim P-Y**, Abdul Rahman H, Mahé G, Noury-Desvaux B, Prioux J.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C6---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Intérêts cliniques de la mesure ambulatoire de l’activité physique et de la capacité de marche dans l’artériopathie oblitérante des membres inférieurs.</div>
+
+::: title
+Intérêts cliniques de la mesure ambulatoire de l'activité physique et de la capacité de marche dans l'artériopathie oblitérante des membres inférieurs.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre </span><span class="date">2015.</span></div>
+
+<div>
+
+[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Mahé G, Prioux J, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Mahé G, Prioux J, Le Faucheur A.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0398049915002358?via%3Dihub">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0398049915002358?via%3Dihub">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C5---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Accuracy of a low-cost commercially available GPS data logger/receiver to estimate the slope during outdoor walking.</div>
+
+::: title
+Accuracy of a low-cost commercially available GPS data logger/receiver to estimate the slope during outdoor walking.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June </span><span class="date">2015.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C4---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Enseignement de l’index de pression systolique : un appel à l’action.</div>
+
+::: title
+Enseignement de l'index de pression systolique : un appel à l'action.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre </span><span class="date">2015.</span></div>
+
+<div>
+
+[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal}[2015.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Chaudru S, **de Müllenheim P-Y**, Le Faucheur A, Jaquinandi V, Mahé G.</div>
+
+::: authors
+Chaudru S, **de Müllenheim P-Y**, Le Faucheur A, Jaquinandi V, Mahé G.
+:::
 
 <!--Link-->
-<button class="btn-default">
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0398049915002346?via%3Dihub">DOI</a>
-</button>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+<button class="btn-default">
+
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0398049915002346?via%3Dihub">DOI</a>
+
+</button>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C3---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Validity of global positioning system and comparison with accelerometry in the estimation of energy expenditure during horizontal and grade walking and running on the field.</div>
+
+::: title
+Validity of global positioning system and comparison with accelerometry in the estimation of energy expenditure during horizontal and grade walking and running on the field.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication presented at the 8th European Sport Medicine Congress of European Federation of Sports Medicine Associations (EFSMA), Strasbourg, France, September </span><span class="date">2013.</span></div>
+
+<div>
+
+[\[Oral\] Communication presented at the 8th European Sport Medicine Congress of European Federation of Sports Medicine Associations (EFSMA), Strasbourg, France, September]{.journal}[2013.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">Gernigon M, **de Müllenheim P-Y**, Chaudru S, Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.</div>
-<!-- -------------------------------------------------------------------------------------------------- -->
-<br>
 
+::: authors
+Gernigon M, **de Müllenheim P-Y**, Chaudru S, Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.
+:::
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<br>
 
 <!--C2---------------------------------------------------------------------------------------------------->
+
 <!--Title-->
-<div class="title">Validité du Géo-Positionnement Satellitaire et comparaison avec l’accélérométrie dans l’estimation de la dépense énergétique lors de la marche et la course en extérieur.</div>
+
+::: title
+Validité du Géo-Positionnement Satellitaire et comparaison avec l'accélérométrie dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 15ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Grenoble, France, Octobre </span><span class="date">2013.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 15ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Grenoble, France, Octobre]{.journal}[2013.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Gernigon M, Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Gernigon M, Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.
+:::
+
 <!-- -------------------------------------------------------------------------------------------------- -->
 
+<br> <!--C1----------------------------------------------------------------------------------------------------> <!--Title-->
 
-<br>
-<!--C1---------------------------------------------------------------------------------------------------->
-<!--Title-->
-<div class="title">Intérêt du géo-positionnement satellitaire dans l’estimation de la dépense énergétique lors de la marche et la course en extérieur : validité et comparaison avec l’accélérométrie.</div>
-
+::: title
+Intérêt du géo-positionnement satellitaire dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur : validité et comparaison avec l'accélérométrie.
+:::
 
 <!--Conference-->
-<div><span class="journal">[Oral] Communication présentée au 5ème colloque Sport et Recherche en Pays de la Loire (SRPDL), Laval, France, Novembre </span><span class="date">2013.</span></div>
+
+<div>
+
+[\[Oral\] Communication présentée au 5ème colloque Sport et Recherche en Pays de la Loire (SRPDL), Laval, France, Novembre]{.journal}[2013.]{.date}
+
+</div>
 
 <!--Authors-->
-<div class="authors">**de Müllenheim P-Y**, Chaudru S, Gernigon , Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.</div>
+
+::: authors
+**de Müllenheim P-Y**, Chaudru S, Gernigon , Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.
+:::
+
 <!-- -------------------------------------------------------------------------------------------------- -->
+
 <br>

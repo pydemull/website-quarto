@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -84,6 +91,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -93,7 +102,7 @@ cookieconsent.run({
 <link rel="stylesheet" href="css/website.css">
 <link rel="stylesheet" href="css/pubs.css">
 <meta property="og:title" content="Pierre-Yves de Müllenheim - Publications (18)">
-<meta property="og:site-name" content="Pierre-Yves de Müllenheim">
+<meta property="og:site_name" content="Pierre-Yves de Müllenheim">
 <meta name="twitter:title" content="Pierre-Yves de Müllenheim - Publications (18)">
 <meta name="twitter:card" content="summary">
 </head>
@@ -102,9 +111,9 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pierre-Yves de Müllenheim</span>
     </a>
@@ -116,68 +125,68 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
- <span class="menu-text">Blog posts</span></a>
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">Blog posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./in_posts.html" rel="" target="">
- <span class="menu-text">LinkedIn posts</span></a>
+    <a class="nav-link" href="./in_posts.html"> 
+<span class="menu-text">LinkedIn posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./pubs.html" rel="" target="" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./pubs.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coms.html" rel="" target="">
- <span class="menu-text">Communications</span></a>
+    <a class="nav-link" href="./coms.html"> 
+<span class="menu-text">Communications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/pydemullenheim.com" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="arcticons:bluesky" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://bsky.app/profile/pydemullenheim.com"> 
+<span class="menu-text"><iconify-icon inline="" icon="arcticons:bluesky" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/pydemullenheim" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="fa6-brands:square-x-twitter" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://twitter.com/pydemullenheim"> 
+<span class="menu-text"><iconify-icon inline="" icon="fa6-brands:square-x-twitter" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://fosstodon.org/@pydemullenheim" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="fa6-brands:mastodon" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://fosstodon.org/@pydemullenheim"> 
+<span class="menu-text"><iconify-icon inline="" icon="fa6-brands:mastodon" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="fa6-brands:linkedin" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572"> 
+<span class="menu-text"><iconify-icon inline="" icon="fa6-brands:linkedin" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/pydemull" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="fa6-brands:github" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://github.com/pydemull"> 
+<span class="menu-text"><iconify-icon inline="" icon="fa6-brands:github" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?hl=fr&amp;user=XrIzAj8AAAAJ" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="academicons:google-scholar-square" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=fr&amp;user=XrIzAj8AAAAJ"> 
+<span class="menu-text"><iconify-icon inline="" icon="academicons:google-scholar-square" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="fa6-brands:researchgate" style="font-size: 1.25em;"></iconify-icon></span></a>
+    <a class="nav-link" href="https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2"> 
+<span class="menu-text"><iconify-icon inline="" icon="fa6-brands:researchgate" style="font-size: 1.25em;"></iconify-icon></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -206,357 +215,359 @@ cookieconsent.run({
   </div>
   
 
+
 </header>
+
 
 <p><br></p>
 <!--P18---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-activAnalyzer: An R Shiny app to analyse ActiGraph accelerometer data and to implement the use of the PROactive Physical Activity in COPD instruments.
+<p>activAnalyzer: An R Shiny app to analyse ActiGraph accelerometer data and to implement the use of the PROactive Physical Activity in COPD instruments.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">J Open Source Softw. </span><span class="date">2022.</span>
+<p><span class="journal">J Open Source Softw.</span><span class="date">2022.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Chambellan A.
+<p><strong>de Müllenheim PY</strong>, Chambellan A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://joss.theoj.org/papers/10.21105/joss.04741">DOI</a>
+<p><a href="https://joss.theoj.org/papers/10.21105/joss.04741">DOI</a></p>
 </button>
 <button class="btn-default">
-<a href="https://github.com/pydemull/activAnalyzer">GITHUB</a>
+<p><a href="https://github.com/pydemull/activAnalyzer">GITHUB</a></p>
 </button>
 <button class="btn-default">
-<a href="https://zenodo.org/record/7384191#.Y-os45rMJPY">ZENODO</a>
+<p><a href="https://zenodo.org/record/7384191#.Y-os45rMJPY">ZENODO</a></p>
 </button>
 <button class="btn-default">
-<a href="https://cran.r-project.org/web/packages/activAnalyzer/index.html">CRAN</a>
+<p><a href="https://cran.r-project.org/web/packages/activAnalyzer/index.html">CRAN</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P17---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Agreement between StepWatch3 and ActiGraph wGT3X+ for measuring step-based metrics in people with peripheral artery disease.
+<p>Agreement between StepWatch3 and ActiGraph wGT3X+ for measuring step-based metrics in people with peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">J Aging Phys Act. </span><span class="date">2022.</span>
+<p><span class="journal">J Aging Phys Act.</span><span class="date">2022.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Jéhannin P, Le Faucheur A, Chaudru S, Taoum A, Mahé G, <strong>de Müllenheim PY</strong>.
+<p>Jéhannin P, Le Faucheur A, Chaudru S, Taoum A, Mahé G, <strong>de Müllenheim PY</strong>.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://journals.humankinetics.com/view/journals/japa/30/2/article-p225.xml">DOI</a>
+<p><a href="https://journals.humankinetics.com/view/journals/japa/30/2/article-p225.xml">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P16---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-“Should I stay or should I go now?”Recovery time effect on walking capacity in symptomatic peripheral artery disease.
+<p>“Should I stay or should I go now?”Recovery time effect on walking capacity in symptomatic peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">J Appl Physiol (1985). </span><span class="date">2021.</span>
+<p><span class="journal">J Appl Physiol (1985).</span><span class="date">2021.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Rouvière L, Emily M, Chaudru S, Kaladji A, Mahé G, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Rouvière L, Emily M, Chaudru S, Kaladji A, Mahé G, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00441.2020">DOI</a>
+<p><a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00441.2020">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P15---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Measuring outdoor walking capacities using global positioning system in people with multiple sclerosis: clinical and methodological insights from an exploratory study.
+<p>Measuring outdoor walking capacities using global positioning system in people with multiple sclerosis: clinical and methodological insights from an exploratory study.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Sensors (Basel). </span><span class="date">2021.</span>
+<p><span class="journal">Sensors (Basel).</span><span class="date">2021.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, <strong>de Müllenheim PY</strong>, On Behalf Of The Socos Group.
+<p>Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, <strong>de Müllenheim PY</strong>, On Behalf Of The Socos Group.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.mdpi.com/1424-8220/21/9/3189">DOI</a>
+<p><a href="https://www.mdpi.com/1424-8220/21/9/3189">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P14---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Comparison of activity monitors accuracy in assessing intermittent outdoor walking.
+<p>Comparison of activity monitors accuracy in assessing intermittent outdoor walking.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Med Sci Sports Exerc. </span><span class="date">2021.</span>
+<p><span class="journal">Med Sci Sports Exerc.</span><span class="date">2021.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Taoum A, Chaudru S, <strong>de Müllenheim PY</strong>, Congnard F, Emily M, Noury-Desvaux B, Bickert S, Carrault G, Mahé G, Le Faucheur A.
+<p>Taoum A, Chaudru S, <strong>de Müllenheim PY</strong>, Congnard F, Emily M, Noury-Desvaux B, Bickert S, Carrault G, Mahé G, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://journals.lww.com/acsm-msse/Fulltext/2021/06000/Comparison_of_Activity_Monitors_Accuracy_in.23.aspx">DOI</a>
+<p><a href="https://journals.lww.com/acsm-msse/Fulltext/2021/06000/Comparison_of_Activity_Monitors_Accuracy_in.23.aspx">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P13---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Reporting, analyzing, and interpreting activity monitor data in peripheral artery disease.
+<p>Reporting, analyzing, and interpreting activity monitor data in peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Ann Vasc Surgs. </span><span class="date">2020.</span>
+<p><span class="journal">Ann Vasc Surgs.</span><span class="date">2020.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Congnard F, Noury-Desvaux B; SOCOS Group.
+<p><strong>de Müllenheim PY</strong>, Congnard F, Noury-Desvaux B; SOCOS Group.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.annalsofvascularsurgery.com/article/S0890-5096(20)30197-7/fulltext">DOI</a>
+<p><a href="https://www.annalsofvascularsurgery.com/article/S0890-5096(20)30197-7/fulltext">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P12---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Using wearable monitors to assess daily walking limitations induced by ischemic pain in peripheral artery disease.
+<p>Using wearable monitors to assess daily walking limitations induced by ischemic pain in peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Scand J Med Sci Sports. </span><span class="date">2019.</span>
+<p><span class="journal">Scand J Med Sci Sports.</span><span class="date">2019.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Chaudru S, Jehannin P, <strong>de Müllenheim PY</strong>, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.
+<p>Chaudru S, Jehannin P, <strong>de Müllenheim PY</strong>, Klein H, Jaquinandi V, Mahé G, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.13511">DOI</a>
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.13511">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P11---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Estimating outdoor walking energy expenditure in non-steady-state conditions.
+<p>Estimating outdoor walking energy expenditure in non-steady-state conditions.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Med Sci Sports Exerc. </span><span class="date">2019.</span>
+<p><span class="journal">Med Sci Sports Exerc.</span><span class="date">2019.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Noury-Desvaux B, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Noury-Desvaux B, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://journals.lww.com/acsm-msse/pages/articleviewer.aspx?year=2019&amp;issue=07000&amp;article=00025&amp;type=Fulltext">DOI</a>
+<p><a href="https://journals.lww.com/acsm-msse/pages/articleviewer.aspx?year=2019&amp;issue=07000&amp;article=00025&amp;type=Fulltext">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P10---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Use of a wearable activity monitor in a home-based exercise intervention for peripheral artery disease.
+<p>Use of a wearable activity monitor in a home-based exercise intervention for peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">JAMA. </span><span class="date">2018.</span>
+<p><span class="journal">JAMA.</span><span class="date">2018.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Abraham P, Noury-Desvaux B.
+<p><strong>de Müllenheim PY</strong>, Abraham P, Noury-Desvaux B.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://jamanetwork.com/journals/jama/article-abstract/2703332">DOI</a>
+<p><a href="https://jamanetwork.com/journals/jama/article-abstract/2703332">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P9---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Using GPS, accelerometry and heart rate to predict outdoor graded walking energy expenditure.
+<p>Using GPS, accelerometry and heart rate to predict outdoor graded walking energy expenditure.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">J Sci Med Sport. </span><span class="date">2018.</span>
+<p><span class="journal">J Sci Med Sport.</span><span class="date">2018.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Chaudru S, Emily M, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Chaudru S, Emily M, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.jsams.org/article/S1440-2440(17)31654-7/fulltext">DOI</a>
+<p><a href="https://www.jsams.org/article/S1440-2440(17)31654-7/fulltext">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P8---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Accuracy of a low-cost global positioning system receiver for estimating grade during outdoor walking.
+<p>Accuracy of a low-cost global positioning system receiver for estimating grade during outdoor walking.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Physiol Meas. </span><span class="date">2016.</span>
+<p><span class="journal">Physiol Meas.</span><span class="date">2016.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Chaudru S, Gernigon M, Mahé G, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://iopscience.iop.org/article/10.1088/0967-3334/37/10/1741">DOI</a>
+<p><a href="https://iopscience.iop.org/article/10.1088/0967-3334/37/10/1741">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P7---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Predicting metabolic rate during level and uphill outdoor walking using a low-cost gps receiver.
+<p>Predicting metabolic rate during level and uphill outdoor walking using a low-cost gps receiver.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">J Appl Physiol (1985). </span><span class="date">2016.</span>
+<p><span class="journal">J Appl Physiol (1985).</span><span class="date">2016.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Dumond R, Gernigon M, Mahé G, Lavenu A, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Dumond R, Gernigon M, Mahé G, Lavenu A, Bickert S, Prioux J, Noury-Desvaux B, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00224.2016">DOI</a>
+<p><a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00224.2016">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P6---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Clinical interest of ambulatory assessment of physical activity and walking capacity in peripheral artery disease.
+<p>Clinical interest of ambulatory assessment of physical activity and walking capacity in peripheral artery disease.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Scand J Med Sci Sports. </span><span class="date">2016.</span>
+<p><span class="journal">Scand J Med Sci Sports.</span><span class="date">2016.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-<strong>de Müllenheim PY</strong>, Chaudru S, Mahé G, Prioux J, Le Faucheur A.
+<p><strong>de Müllenheim PY</strong>, Chaudru S, Mahé G, Prioux J, Le Faucheur A.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.12512">DOI</a>
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.12512">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P5---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Training to perform ankle-brachial index: systematic review and perspectives to improve teaching and learning.
+<p>Training to perform ankle-brachial index: systematic review and perspectives to improve teaching and learning.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Eur J Vasc Endovasc Surg. </span><span class="date">2016.</span>
+<p><span class="journal">Eur J Vasc Endovasc Surg.</span><span class="date">2016.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Kaladji A, Jaquinandi V, Mahé G.
+<p>Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Kaladji A, Jaquinandi V, Mahé G.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.ejves.com/article/S1078-5884(15)00680-2/fulltext">DOI</a>
+<p><a href="https://www.ejves.com/article/S1078-5884(15)00680-2/fulltext">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P4---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Knowledge about ankle-brachial index procedure among residents: being experienced is beneficial but is not enough.
+<p>Knowledge about ankle-brachial index procedure among residents: being experienced is beneficial but is not enough.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Vasa. </span><span class="date">2016.</span>
+<p><span class="journal">Vasa.</span><span class="date">2016.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Jaquinandi V, Kaladji A, Mahé G.
+<p>Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Jaquinandi V, Kaladji A, Mahé G.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://econtent.hogrefe.com/doi/10.1024/0301-1526/a000493">DOI</a>
+<p><a href="https://econtent.hogrefe.com/doi/10.1024/0301-1526/a000493">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P3---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Letter by le faucheur et al regarding articles, “six-minute walk is a better outcome measure than treadmill walking tests in therapeutic trials of patients with peripheral artery disease” and “the treadmill is a better functional test than the 6-minute walk test in therapeutic trials of patients with peripheral artery disease”.
+<p>Letter by le faucheur et al regarding articles, “six-minute walk is a better outcome measure than treadmill walking tests in therapeutic trials of patients with peripheral artery disease” and “the treadmill is a better functional test than the 6-minute walk test in therapeutic trials of patients with peripheral artery disease”.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Circulation. </span><span class="date">2015.</span>
+<p><span class="journal">Circulation.</span><span class="date">2015.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Le Faucheur A, <strong>de Müllenheim PY</strong>, Mahé G.
+<p>Le Faucheur A, <strong>de Müllenheim PY</strong>, Mahé G.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.114.012389">DOI</a>
+<p><a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.114.012389">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P2---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Ankle brachial index teaching: a call for an international action.
+<p>Ankle brachial index teaching: a call for an international action.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Int J Cardiol. </span><span class="date">2015.</span>
+<p><span class="journal">Int J Cardiol.</span><span class="date">2015.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Jaquinandi V, Mahé G.
+<p>Chaudru S, <strong>de Müllenheim PY</strong>, Le Faucheur A, Jaquinandi V, Mahé G.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://www.internationaljournalofcardiology.com/article/S0167-5273(15)00255-7/fulltext">DOI</a>
+<p><a href="https://www.internationaljournalofcardiology.com/article/S0167-5273(15)00255-7/fulltext">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
 <!--P1---------------------------------------------------------------------------------------------------->
 <!--Title-->
 <div class="title">
-Effects of recovery mode (active vs.&nbsp;passive) on performance during a short high-intensity interval training program: a longitudinal study.
+<p>Effects of recovery mode (active vs.&nbsp;passive) on performance during a short high-intensity interval training program: a longitudinal study.</p>
 </div>
 <!--Journal & Date-->
 <div>
-<span class="journal">Eur J Appl Physiol. </span><span class="date">2013.</span>
+<p><span class="journal">Eur J Appl Physiol.</span><span class="date">2013.</span></p>
 </div>
 <!--Authors-->
 <div class="authors">
-Ben Abderrahman A, Zouhal H, Chamari K, Thevenet D, <strong>de Müllenheim PY</strong>, Gastinger S, Tabka Z, Prioux J.
+<p>Ben Abderrahman A, Zouhal H, Chamari K, Thevenet D, <strong>de Müllenheim PY</strong>, Gastinger S, Tabka Z, Prioux J.</p>
 </div>
 <!--Link-->
 <button class="btn-default">
-<a href="https://link.springer.com/article/10.1007/s00421-012-2556-9">DOI</a>
+<p><a href="https://link.springer.com/article/10.1007/s00421-012-2556-9">DOI</a></p>
 </button>
 <!-- -------------------------------------------------------------------------------------------------- -->
 <p><br></p>
@@ -643,10 +654,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -656,8 +666,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -670,6 +689,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -713,6 +851,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -738,6 +877,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -803,12 +968,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright © 2022-2024 Pierre-Yves de Müllenheim<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pydemull/website-quarto/edit/main/pubs.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/pydemull/website-quarto/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+<p>Copyright © 2022-2024 Pierre-Yves de Müllenheim</p>
+<div class="toc-actions"><ul><li><a href="https://github.com/pydemull/website-quarto/edit/main/pubs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/pydemull/website-quarto/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
