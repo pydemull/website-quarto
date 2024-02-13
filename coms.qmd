@@ -14,14 +14,14 @@ knitr::opts_chunk$set(echo = FALSE)
 <!--Title-->
 
 ::: title
-Validité et reproductibilité d’une évaluation isométrique de la force des extenseurs du tronc à l’aide d’un dynamomètre à traction (K-Force Link).
+Validité et reproductibilité d'une évaluation isométrique de la force des extenseurs du tronc à l'aide d'un dynamomètre à traction (K-Force Link).
 :::
 
 <!--Conference-->
 
 <div>
 
-[\[Poster\] Communication présentée au 20ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Reims, France, Octobre]{.journal}[2023.]{.date}
+[\[Poster\] Communication présentée au 20ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Reims, France, Octobre]{.journal} [2023.]{.date}
 
 </div>
 
@@ -47,7 +47,7 @@ Effets d'une intervention en activité physique adaptée sur les paramètres car
 
 <div>
 
-[\[Oral\] Communication présentée au Colloque Fatigues liées au cancer et activités physiques adaptées : approches pluridisciplinaires, Le Mans, France, Septembre]{.journal}[2023.]{.date}
+[\[Oral\] Communication présentée au Colloque Fatigues liées au cancer et activités physiques adaptées : approches pluridisciplinaires, Le Mans, France, Septembre]{.journal} [2023.]{.date}
 
 </div>
 
@@ -73,7 +73,7 @@ Maintien de la condition physique et de l'activité physique à un an chez des p
 
 <div>
 
-[\[Poster\] Communication présentée aux 7èmes journées francophones de recherche en soins (JFRS), Angers, France, Juin]{.journal}[2023.]{.date}
+[\[Poster\] Communication présentée aux 7èmes journées francophones de recherche en soins (JFRS), Angers, France, Juin]{.journal} [2023.]{.date}
 
 </div>
 
@@ -99,7 +99,7 @@ Effets des encouragements sur l'engagement des élèves en course de demi-fond :
 
 <div>
 
-[\[Oral\] Communication présentée au colloque Les Méthodes Mixtes de Recherche, Paris, France, Juin]{.journal}[2023.]{.date}
+[\[Oral\] Communication présentée au colloque Les Méthodes Mixtes de Recherche, Paris, France, Juin]{.journal} [2023.]{.date}
 
 </div>
 
@@ -125,7 +125,7 @@ activAnalyzer : une application pour faciliter l'accès à la mesure de l'activi
 
 <div>
 
-[\[Poster\] Communication présentée aux 14èmes journées francophones ALVÉOLE, Nantes, France, Mars]{.journal}[2022.]{.date}
+[\[Poster\] Communication présentée aux 14èmes journées francophones ALVÉOLE, Nantes, France, Mars]{.journal} [2022.]{.date}
 
 </div>
 
@@ -151,7 +151,7 @@ Is Afghan walking sessions integration of interest for COPD patients rehabilitat
 
 <div>
 
-[\[Oral\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal}[2021.]{.date}
+[\[Oral\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal} [2021.]{.date}
 
 </div>
 
@@ -177,7 +177,7 @@ Automated event-based algorithm for quantifying daily life ischemic events in pe
 
 <div>
 
-[\[Poster\] Communication presented at the 7th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Virtual, June]{.journal}[2021.]{.date}
+[\[Poster\] Communication presented at the 7th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Virtual, June]{.journal} [2021.]{.date}
 
 </div>
 
@@ -211,7 +211,7 @@ Predicting percentage of heart rate reserve and rating of perceived exertion dur
 
 <div>
 
-[\[Poster\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal}[2021.]{.date}
+[\[Poster\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal} [2021.]{.date}
 
 </div>
 
@@ -237,7 +237,7 @@ Evaluation de l'épaule du handballeur : un outil simple pour une nouvelle appro
 
 <div>
 
-[\[Oral\] Communication présentée au 14ème congrès de la Société Française de Médecine de l'Exercice et du Sport (SFMES) et de la Société Française de Traumatologie du Sport (SFTS), Montrouge, France, Septembre]{.journal}[2021.]{.date}
+[\[Oral\] Communication présentée au 14ème congrès de la Société Française de Médecine de l'Exercice et du Sport (SFMES) et de la Société Française de Traumatologie du Sport (SFTS), Montrouge, France, Septembre]{.journal} [2021.]{.date}
 
 </div>
 
@@ -263,7 +263,7 @@ Effet du ratio temps d'effort : temps de récupération sur la capacité de marc
 
 <div>
 
-[\[Oral\] Communication présentée aux XXe journées d'études francophones en activités physiques adaptées, Caen, France, Mai]{.journal}[2021.]{.date}
+[\[Oral\] Communication présentée aux XXe journées d'études francophones en activités physiques adaptées, Caen, France, Mai]{.journal} [2021.]{.date}
 
 </div>
 
@@ -289,7 +289,7 @@ Le Y-Balance Test : outil d'évaluation et d'amélioration de l'équilibre dynam
 
 <div>
 
-[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal}[2020.]{.date}
+[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal} [2020.]{.date}
 
 </div>
 
@@ -315,7 +315,7 @@ Comparaison du StepWatch3 à l'ActiGraph wGT3X+ pour la mesure d'indicateurs li�
 
 <div>
 
-[\[Oral\] Communication présentée au 1e colloque Les rencontres scientifiques de l'IFEPSA ("Sport, Corps, et Evaluation"), Les Ponts-de-Cé, France, Décembre]{.journal}[2020.]{.date}
+[\[Oral\] Communication présentée au 1e colloque Les rencontres scientifiques de l'IFEPSA ("Sport, Corps, et Evaluation"), Les Ponts-de-Cé, France, Décembre]{.journal} [2020.]{.date}
 
 </div>
 
@@ -341,7 +341,7 @@ Influence de la maturation biologique sur l'équilibre dynamique de jeunes joueu
 
 <div>
 
-[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal}[2020.]{.date}
+[\[Poster\] Communication présentée au 13ème Congrès national commun SFMES/SFTS, Vichy, France, Septembre]{.journal} [2020.]{.date}
 
 </div>
 
@@ -367,7 +367,7 @@ Suivi d'un programme d'éducation thérapeutique visant l'amélioration du profi
 
 <div>
 
-[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal} [2019.]{.date}
 
 </div>
 
@@ -393,7 +393,7 @@ L'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketb
 
 <div>
 
-[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+[\[Poster\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal} [2019.]{.date}
 
 </div>
 
@@ -419,7 +419,7 @@ Validité clinique d'une nouvelle méthode d'évaluation ambulatoire du temps de
 
 <div>
 
-[\[Oral\] Communication présentée au 18ème congrès de la Société française de la médecine vasculaire (SFMV), Strasbourg, France, Septembre]{.journal}[2019.]{.date}
+[\[Oral\] Communication présentée au 18ème congrès de la Société française de la médecine vasculaire (SFMV), Strasbourg, France, Septembre]{.journal} [2019.]{.date}
 
 </div>
 
@@ -445,7 +445,7 @@ Comparison between an activity diary and an hip-worn accelerometer to estimate p
 
 <div>
 
-[\[Oral\] Communication presented at the 18th congress of the Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, October]{.journal}[2019.]{.date}
+[\[Oral\] Communication presented at the 18th congress of the Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, October]{.journal} [2019.]{.date}
 
 </div>
 
@@ -471,7 +471,7 @@ Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill wal
 
 <div>
 
-[\[Poster\] Communication presented at the 6th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Maastricht, Netherlands, June]{.journal}[2019.]{.date}
+[\[Poster\] Communication presented at the 6th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Maastricht, Netherlands, June]{.journal} [2019.]{.date}
 
 </div>
 
@@ -497,7 +497,7 @@ Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill wal
 
 <div>
 
-[\[Oral\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal}[2019.]{.date}
+[\[Oral\] Communication présentée au 18ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Paris, France, Octobre]{.journal} [2019.]{.date}
 
 </div>
 
@@ -523,7 +523,7 @@ Effets de la modalité d'intervention en activité physique adaptée sur la comp
 
 <div>
 
-[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal}[2018.]{.date}
+[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal} [2018.]{.date}
 
 </div>
 
@@ -557,7 +557,7 @@ Relation entre le temps passé debout au cours de la journée et les capacités 
 
 <div>
 
-[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal}[2018.]{.date}
+[\[Oral\] Communication présentée aux XIXes journées d'études francophones en activités physiques adaptées, Toulon, France, Mai]{.journal} [2018.]{.date}
 
 </div>
 
@@ -591,7 +591,7 @@ Impact of the EGNOS feature and environmental conditions on GPS accuracy during 
 
 <div>
 
-[\[Poster\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal}[2017.]{.date}
+[\[Poster\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal} [2017.]{.date}
 
 </div>
 
@@ -617,7 +617,7 @@ Estimating energy expenditure during outdoor level walking using Global Position
 
 <div>
 
-[\[Oral\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal}[2017.]{.date}
+[\[Oral\] Communication presented at the 5th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Bethesda, MA, June]{.journal} [2017.]{.date}
 
 </div>
 
@@ -643,7 +643,7 @@ Comparison of GPS, accelerometry, and heart rate for estimating metabolic rate d
 
 <div>
 
-[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal} [2016.]{.date}
 
 </div>
 
@@ -669,7 +669,7 @@ The relationship between walking capacity and previous stop duration in patients
 
 <div>
 
-[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal} [2016.]{.date}
 
 </div>
 
@@ -695,7 +695,7 @@ Effect of recovery duration on walking capacity after a symptom-limited walk in 
 
 <div>
 
-[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal}[2016.]{.date}
+[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal} [2016.]{.date}
 
 </div>
 
@@ -721,7 +721,7 @@ Objective quantification of walking pain occurences in free-living condiitons in
 
 <div>
 
-[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal}[2016.]{.date}
+[\[Oral\] Communication presented at the XXVII World Congress of the International Union of Angiology (IUA) / 15th Annual Congress of the French Society for Vascular Medicine (SFVM), Lyon, France, October]{.journal} [2016.]{.date}
 
 </div>
 
@@ -747,7 +747,7 @@ Assessing free-living walking impairment in peripheral artery disease patients b
 
 <div>
 
-[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal}[2016.]{.date}
+[\[Oral\] Communication presented at the 21st Annual Congress of the European College of Sport Science (ECSS), Vienna, Austria, June]{.journal} [2016.]{.date}
 
 </div>
 
@@ -773,7 +773,7 @@ Assessing the impact of environmental conditions on GPS accuracy during human wa
 
 <div>
 
-[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal}[2015.]{.date}
+[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal} [2015.]{.date}
 
 </div>
 
@@ -799,7 +799,7 @@ Couplage du géo-positionnement satellitaire, de l'accélérométrie et de l
 
 <div>
 
-[\[Oral\] Communication présentée au 16ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Nantes, France, Octobre]{.journal}[2015.]{.date}
+[\[Oral\] Communication présentée au 16ème congrès international de l'Association des Chercheurs en Activités Physiques et Sportives (ACAPS), Nantes, France, Octobre]{.journal} [2015.]{.date}
 
 </div>
 
@@ -825,7 +825,7 @@ Intérêts cliniques de la mesure ambulatoire de l'activité physique et de la c
 
 <div>
 
-[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal}[2015.]{.date}
+[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal} [2015.]{.date}
 
 </div>
 
@@ -859,7 +859,7 @@ Accuracy of a low-cost commercially available GPS data logger/receiver to estima
 
 <div>
 
-[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal}[2015.]{.date}
+[\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal} [2015.]{.date}
 
 </div>
 
@@ -885,7 +885,7 @@ Enseignement de l'index de pression systolique : un appel à l'action.
 
 <div>
 
-[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal}[2015.]{.date}
+[\[Oral\] Communication presentée au 14ème congrès de la Société Française de Médecine Vasculaire (SFMV), Nancy, France, Septembre]{.journal} [2015.]{.date}
 
 </div>
 
@@ -919,7 +919,7 @@ Validity of global positioning system and comparison with accelerometry in the e
 
 <div>
 
-[\[Oral\] Communication presented at the 8th European Sport Medicine Congress of European Federation of Sports Medicine Associations (EFSMA), Strasbourg, France, September]{.journal}[2013.]{.date}
+[\[Oral\] Communication presented at the 8th European Sport Medicine Congress of European Federation of Sports Medicine Associations (EFSMA), Strasbourg, France, September]{.journal} [2013.]{.date}
 
 </div>
 
@@ -945,7 +945,7 @@ Validité du Géo-Positionnement Satellitaire et comparaison avec l'accélérom�
 
 <div>
 
-[\[Oral\] Communication présentée au 15ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Grenoble, France, Octobre]{.journal}[2013.]{.date}
+[\[Oral\] Communication présentée au 15ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Grenoble, France, Octobre]{.journal} [2013.]{.date}
 
 </div>
 
@@ -967,7 +967,7 @@ Intérêt du géo-positionnement satellitaire dans l'estimation de la dépense �
 
 <div>
 
-[\[Oral\] Communication présentée au 5ème colloque Sport et Recherche en Pays de la Loire (SRPDL), Laval, France, Novembre]{.journal}[2013.]{.date}
+[\[Oral\] Communication présentée au 5ème colloque Sport et Recherche en Pays de la Loire (SRPDL), Laval, France, Novembre]{.journal} [2013.]{.date}
 
 </div>
 
