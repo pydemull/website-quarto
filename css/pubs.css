@@ -5,7 +5,7 @@ h1.title {
   color: #066666;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  line-height: 1;
+  line-height: 1.2rem;
   text-align: center;
 }
 
@@ -13,28 +13,23 @@ h1.title {
   font-weight: bold;
   font-size: 1.1rem;
   color: #066666;
-  line-height: 1;
-}
-
-.journal{
-  font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .authors{
   font-size: 0.9rem;
-  line-height: 1rem;
-}
-
-.date{
-  font-size: 0.9rem;
-  line-height: 1rem;
-
+  line-height: 1.2rem;
 }
 
 .journal{
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
+}
+
+.date{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+
 }
 
 .btn-default{
