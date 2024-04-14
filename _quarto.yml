@@ -24,7 +24,7 @@ website:
       - href: coms.qmd
         text: Communications
     right: 
-    - text: "{{< iconify arcticons bluesky  size=lg >}}"
+    - text: "{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}"
       href: https://bsky.app/profile/pydemullenheim.com
     - text: "{{< iconify fa6-brands square-x-twitter size=lg >}}"
       href: https://twitter.com/pydemullenheim
