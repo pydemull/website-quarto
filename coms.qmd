@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <!--C36---------------------------------------------------------------------------------------------------->
 
 ::: title
-Validité et reproductibilité d'une évaluation isométrique de la force des extenseurs du tronc à l'aide d'un dynamomètre à traction (K-Force Link).
+\[36\] Validité et reproductibilité d'une évaluation isométrique de la force des extenseurs du tronc à l'aide d'un dynamomètre à traction (K-Force Link).
 :::
 
 ::: journal
@@ -28,7 +28,7 @@ Pinochet C, Petit P, Houedakor J, Piette P, **de Müllenheim P-Y**, Noury-Desvau
 <!--C35---------------------------------------------------------------------------------------------------->
 
 ::: title
-Effets d'une intervention en activité physique adaptée sur les paramètres cardiorespiratoires de patients atteints de lymphome en fonction de leur parcours de soins.
+\[35\] Effets d'une intervention en activité physique adaptée sur les paramètres cardiorespiratoires de patients atteints de lymphome en fonction de leur parcours de soins.
 :::
 
 ::: journal
@@ -44,7 +44,7 @@ Bodinier T, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux B.
 <!--C34---------------------------------------------------------------------------------------------------->
 
 ::: title
-Maintien de la condition physique et de l'activité physique à un an chez des patients coronariens ayant suivi un programme de réadaptation cardiaque - APA&CO.
+\[34\] Maintien de la condition physique et de l'activité physique à un an chez des patients coronariens ayant suivi un programme de réadaptation cardiaque - APA&CO.
 :::
 
 ::: journal
@@ -60,7 +60,7 @@ Da Ros Vettoretto P, Bouffart A-A, Baron A-C, Gaumé M, **de Müllenheim P-Y**.
 <!--C33---------------------------------------------------------------------------------------------------->
 
 ::: title
-Effets des encouragements sur l'engagement des élèves en course de demi-fond : une étude de cas articulant des données de vitesse et d'expérience.
+\[33\] Effets des encouragements sur l'engagement des élèves en course de demi-fond : une étude de cas articulant des données de vitesse et d'expérience.
 :::
 
 ::: journal
@@ -76,7 +76,7 @@ Montois T, **de Müllenheim P-Y**, Terré N.
 <!--C32---------------------------------------------------------------------------------------------------->
 
 ::: title
-activAnalyzer : une application pour faciliter l'accès à la mesure de l'activité physique et l'utilisation des questionnaires PROactive à partir de l'accéléromètre ActiGraph® dans la BPCO.
+\[32\] activAnalyzer : une application pour faciliter l'accès à la mesure de l'activité physique et l'utilisation des questionnaires PROactive à partir de l'accéléromètre ActiGraph® dans la BPCO.
 :::
 
 ::: journal
@@ -92,12 +92,12 @@ activAnalyzer : une application pour faciliter l'accès à la mesure de l'activi
 <!--C31---------------------------------------------------------------------------------------------------->
 
 ::: title
-Is Afghan walking sessions integration of interest for COPD patients rehabilitation?
+\[31\] Is Afghan walking sessions integration of interest for COPD patients rehabilitation?
 :::
 
 ::: journal
 [\[Oral\] Communication présentée au 19ème congrès international de l'Association des chercheurs en activités physiques et sportives (ACAPS), Montpellier, France, Octobre]{.journal} [2021.]{.date}
-::: 
+:::
 
 ::: authors
 Triballier P, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
@@ -108,12 +108,12 @@ Triballier P, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
 <!--C30---------------------------------------------------------------------------------------------------->
 
 ::: title
-Automated event-based algorithm for quantifying daily life ischemic events in peripheral artery disease.
+\[30\] Automated event-based algorithm for quantifying daily life ischemic events in peripheral artery disease.
 :::
 
 ::: journal
 [\[Poster\] Communication presented at the 7th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Virtual, June]{.journal} [2021.]{.date}
-::: 
+:::
 
 ::: authors
 Taoum A, Jéhannin P, Chaudru S, **de Müllenheim P-Y**, Mahé G, Le Faucheur A.
@@ -132,7 +132,7 @@ Taoum A, Jéhannin P, Chaudru S, **de Müllenheim P-Y**, Mahé G, Le Faucheur A.
 <!--C29---------------------------------------------------------------------------------------------------->
 
 ::: title
-Predicting percentage of heart rate reserve and rating of perceived exertion during bench stepping in young adults: preliminary data.
+\[29\] Predicting percentage of heart rate reserve and rating of perceived exertion during bench stepping in young adults: preliminary data.
 :::
 
 ::: journal
@@ -148,7 +148,7 @@ Paquet S, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.
 <!--C28---------------------------------------------------------------------------------------------------->
 
 ::: title
-Evaluation de l'épaule du handballeur : un outil simple pour une nouvelle approche.
+\[28\] Evaluation de l'épaule du handballeur : un outil simple pour une nouvelle approche.
 :::
 
 ::: journal
@@ -164,7 +164,7 @@ Leroux E, Bickert S, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.
 <!--C27---------------------------------------------------------------------------------------------------->
 
 ::: title
-Effet du ratio temps d'effort : temps de récupération sur la capacité de marche de patients atteints d'une artériopathie oblitérante des membres inférieurs symptomatique.
+\[27\] ffet du ratio temps d'effort : temps de récupération sur la capacité de marche de patients atteints d'une artériopathie oblitérante des membres inférieurs symptomatique.
 :::
 
 ::: journal
@@ -180,7 +180,7 @@ Effet du ratio temps d'effort : temps de récupération sur la capacité de marc
 <!--C26---------------------------------------------------------------------------------------------------->
 
 ::: title
-Le Y-Balance Test : outil d'évaluation et d'amélioration de l'équilibre dynamique ?
+\[26\] Le Y-Balance Test : outil d'évaluation et d'amélioration de l'équilibre dynamique ?
 :::
 
 ::: journal
@@ -196,7 +196,7 @@ Le Corre G, Michel C, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
 <!--C25---------------------------------------------------------------------------------------------------->
 
 ::: title
-Comparaison du StepWatch3 à l'ActiGraph wGT3X+ pour la mesure d'indicateurs liés aux pas chez des patients atteints d'une artériopathie oblitérante des membres inférieurs.
+\[25\] Comparaison du StepWatch3 à l'ActiGraph wGT3X+ pour la mesure d'indicateurs liés aux pas chez des patients atteints d'une artériopathie oblitérante des membres inférieurs.
 :::
 
 ::: journal
@@ -212,7 +212,7 @@ Comparaison du StepWatch3 à l'ActiGraph wGT3X+ pour la mesure d'indicateurs li�
 <!--C24---------------------------------------------------------------------------------------------------->
 
 ::: title
-Influence de la maturation biologique sur l'équilibre dynamique de jeunes joueurs de Football.
+\[24\] nfluence de la maturation biologique sur l'équilibre dynamique de jeunes joueurs de Football.
 :::
 
 ::: journal
@@ -228,7 +228,7 @@ Chataigner N, Mironnet M, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
 <!--C23---------------------------------------------------------------------------------------------------->
 
 ::: title
-Suivi d'un programme d'éducation thérapeutique visant l'amélioration du profil anthropométrique et de la condition physique chez des adultes obèses.
+\[23\] Suivi d'un programme d'éducation thérapeutique visant l'amélioration du profil anthropométrique et de la condition physique chez des adultes obèses.
 :::
 
 ::: journal
@@ -244,7 +244,7 @@ Simon D, **de Müllenheim P-Y**, Sallé A, Recoing B, Congnard F, Noury-Desvaux 
 <!--C22---------------------------------------------------------------------------------------------------->
 
 ::: title
-L'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?
+\[22\] 'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?
 :::
 
 ::: journal
@@ -260,7 +260,7 @@ Pousset T, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
 <!--C21---------------------------------------------------------------------------------------------------->
 
 ::: title
-Validité clinique d'une nouvelle méthode d'évaluation ambulatoire du temps de marche sans douleur et du temps maximal de marche par couplage de moniteurs d'activité chez des patients artériopathes.
+\[21\] Validité clinique d'une nouvelle méthode d'évaluation ambulatoire du temps de marche sans douleur et du temps maximal de marche par couplage de moniteurs d'activité chez des patients artériopathes.
 :::
 
 ::: journal
@@ -276,7 +276,7 @@ Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.
 <!--C20---------------------------------------------------------------------------------------------------->
 
 ::: title
-Comparison between an activity diary and an hip-worn accelerometer to estimate physical activity pattern in peripheral artery disease.
+\[20\] Comparison between an activity diary and an hip-worn accelerometer to estimate physical activity pattern in peripheral artery disease.
 :::
 
 ::: journal
@@ -292,7 +292,7 @@ Jéhannin P, **de Müllenheim P-Y**, Chaudru S, Mahé G, Le Faucheur A.
 <!--C19---------------------------------------------------------------------------------------------------->
 
 ::: title
-Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill walking, outdoor level walking, and daily living conditions in patients with symptomatic peripheral artery disease.
+\[19\] Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill walking, outdoor level walking, and daily living conditions in patients with symptomatic peripheral artery disease.
 :::
 
 ::: journal
@@ -308,7 +308,7 @@ Comparison of StepWatchTM and ActiGraphTM wGT3X+ step counts under treadmill wal
 <!--C18---------------------------------------------------------------------------------------------------->
 
 ::: title
-Évaluation de la capacité de marche en extérieur à l'aide du géo-positionnement par satellites (GPS) chez des patients atteints de la sclérose en plaques (SEP) : nouvelle approche méthodologique et exploration de l'intérêt clinique.
+\[18\] Évaluation de la capacité de marche en extérieur à l'aide du géo-positionnement par satellites (GPS) chez des patients atteints de la sclérose en plaques (SEP) : nouvelle approche méthodologique et exploration de l'intérêt clinique.
 :::
 
 ::: journal
@@ -324,7 +324,7 @@ Delahaye C, Chaves D, Congnard F, Noury-Desvaux B, **de Müllenheim P-Y**.
 <!--C17---------------------------------------------------------------------------------------------------->
 
 ::: title
-Effets de la modalité d'intervention en activité physique adaptée sur la composition corporelle de patients atteints du cancer de la prostate.
+\[17\] Effets de la modalité d'intervention en activité physique adaptée sur la composition corporelle de patients atteints du cancer de la prostate.
 :::
 
 ::: journal
@@ -348,7 +348,7 @@ Nouchet C, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.
 <!--C16---------------------------------------------------------------------------------------------------->
 
 ::: title
-Relation entre le temps passé debout au cours de la journée et les capacités fonctionnelles chez les personnes âgées.
+\[16\] Relation entre le temps passé debout au cours de la journée et les capacités fonctionnelles chez les personnes âgées.
 :::
 
 ::: journal
@@ -372,7 +372,7 @@ Martineau C, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux B.
 <!--C15---------------------------------------------------------------------------------------------------->
 
 ::: title
-Impact of the EGNOS feature and environmental conditions on GPS accuracy during outdoor walking.
+\[15\] Impact of the EGNOS feature and environmental conditions on GPS accuracy during outdoor walking.
 :::
 
 ::: journal
@@ -388,7 +388,7 @@ Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Noury-Desvaux B.
 <!--C14---------------------------------------------------------------------------------------------------->
 
 ::: title
-Estimating energy expenditure during outdoor level walking using Global Positioning System or accelerometry in patients with peripheral artery disease.
+\[14\] Estimating energy expenditure during outdoor level walking using Global Positioning System or accelerometry in patients with peripheral artery disease.
 :::
 
 ::: journal
@@ -399,13 +399,12 @@ Estimating energy expenditure during outdoor level walking using Global Position
 **de Müllenheim, P-Y**, Chaudru S, Mahé G, Le Faucheur A.
 :::
 
-
 <br>
 
 <!--C13---------------------------------------------------------------------------------------------------->
 
 ::: title
-Comparison of GPS, accelerometry, and heart rate for estimating metabolic rate during level and uphill outdoor walking.
+\[13\] Comparison of GPS, accelerometry, and heart rate for estimating metabolic rate during level and uphill outdoor walking.
 :::
 
 ::: journal
@@ -421,7 +420,7 @@ Le Faucheur A, **de Müllenheim P-Y**, Chaudru S, Emily M, Bickert S, Prioux J, 
 <!--C12---------------------------------------------------------------------------------------------------->
 
 ::: title
-The relationship between walking capacity and previous stop duration in patients with peripheral artery disease.
+\[12\] The relationship between walking capacity and previous stop duration in patients with peripheral artery disease.
 :::
 
 ::: journal
@@ -437,7 +436,7 @@ The relationship between walking capacity and previous stop duration in patients
 <!--C11---------------------------------------------------------------------------------------------------->
 
 ::: title
-Effect of recovery duration on walking capacity after a symptom-limited walk in patients with peripheral artery disease.
+\[11\] Effect of recovery duration on walking capacity after a symptom-limited walk in patients with peripheral artery disease.
 :::
 
 ::: journal
@@ -453,7 +452,7 @@ Effect of recovery duration on walking capacity after a symptom-limited walk in 
 <!--C10---------------------------------------------------------------------------------------------------->
 
 ::: title
-Objective quantification of walking pain occurences in free-living condiitons in peripheral artery disease patients.
+\[10\] Objective quantification of walking pain occurences in free-living condiitons in peripheral artery disease patients.
 :::
 
 ::: journal
@@ -469,7 +468,7 @@ Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A
 <!--C9---------------------------------------------------------------------------------------------------->
 
 ::: title
-Assessing free-living walking impairment in peripheral artery disease patients by objectively quantifying walking pain occurence: definition of a methodology using physical activity monitors.
+\[9\] Assessing free-living walking impairment in peripheral artery disease patients by objectively quantifying walking pain occurence: definition of a methodology using physical activity monitors.
 :::
 
 ::: journal
@@ -485,12 +484,12 @@ Chaudru S, **de Müllenheim P-Y**, Klein H, Jaquinandi V, Mahé G, Le Faucheur A
 <!--C8---------------------------------------------------------------------------------------------------->
 
 ::: title
-Assessing the impact of environmental conditions on GPS accuracy during human walking.
+\[8\] Assessing the impact of environmental conditions on GPS accuracy during human walking.
 :::
 
 ::: journal
 [\[Oral\] Communication presented at 4th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Limerick, Ireland, June]{.journal} [2015.]{.date}
-::: 
+:::
 
 ::: authors
 Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Mahé G, Noury-Desvaux B.
@@ -501,7 +500,7 @@ Le Faucheur A, Chaudru S, **de Müllenheim P-Y**, Mahé G, Noury-Desvaux B.
 <!--C7---------------------------------------------------------------------------------------------------->
 
 ::: title
-Couplage du géo-positionnement satellitaire, de l'accélérométrie et de la mesure de la fréquence cardiaque dans la détection de différents types d'activités physiques et sédentaires.
+\[7\] Couplage du géo-positionnement satellitaire, de l'accélérométrie et de la mesure de la fréquence cardiaque dans la détection de différents types d'activités physiques et sédentaires.
 :::
 
 ::: journal
@@ -517,7 +516,7 @@ Dumond R, Le Faucheur A, **de Müllenheim P-Y**, Abdul Rahman H, Mahé G, Noury-
 <!--C6---------------------------------------------------------------------------------------------------->
 
 ::: title
-Intérêts cliniques de la mesure ambulatoire de l'activité physique et de la capacité de marche dans l'artériopathie oblitérante des membres inférieurs.
+\[6\] Intérêts cliniques de la mesure ambulatoire de l'activité physique et de la capacité de marche dans l'artériopathie oblitérante des membres inférieurs.
 :::
 
 ::: journal
@@ -541,7 +540,7 @@ Intérêts cliniques de la mesure ambulatoire de l'activité physique et de la c
 <!--C5---------------------------------------------------------------------------------------------------->
 
 ::: title
-Accuracy of a low-cost commercially available GPS data logger/receiver to estimate the slope during outdoor walking.
+\[5\] Accuracy of a low-cost commercially available GPS data logger/receiver to estimate the slope during outdoor walking.
 :::
 
 ::: journal
@@ -557,7 +556,7 @@ Accuracy of a low-cost commercially available GPS data logger/receiver to estima
 <!--C4---------------------------------------------------------------------------------------------------->
 
 ::: title
-Enseignement de l'index de pression systolique : un appel à l'action.
+\[4\] Enseignement de l'index de pression systolique : un appel à l'action.
 :::
 
 ::: journal
@@ -581,7 +580,7 @@ Chaudru S, **de Müllenheim P-Y**, Le Faucheur A, Jaquinandi V, Mahé G.
 <!--C3---------------------------------------------------------------------------------------------------->
 
 ::: title
-Validity of global positioning system and comparison with accelerometry in the estimation of energy expenditure during horizontal and grade walking and running on the field.
+\[3\] Validity of global positioning system and comparison with accelerometry in the estimation of energy expenditure during horizontal and grade walking and running on the field.
 :::
 
 ::: journal
@@ -597,7 +596,7 @@ Gernigon M, **de Müllenheim P-Y**, Chaudru S, Caron N, Bruneau A, Bickert S, No
 <!--C2---------------------------------------------------------------------------------------------------->
 
 ::: title
-Validité du Géo-Positionnement Satellitaire et comparaison avec l'accélérométrie dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur.
+\[2\] Validité du Géo-Positionnement Satellitaire et comparaison avec l'accélérométrie dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur.
 :::
 
 ::: journal
@@ -608,12 +607,12 @@ Validité du Géo-Positionnement Satellitaire et comparaison avec l'accélérom�
 **de Müllenheim P-Y**, Chaudru S, Gernigon M, Caron N, Bruneau A, Bickert S, Noury-Desvaux B, Prioux J, Le Faucheur A.
 :::
 
-<br> 
+<br>
 
-<!--C1----------------------------------------------------------------------------------------------------> 
+<!--C1---------------------------------------------------------------------------------------------------->
 
 ::: title
-Intérêt du géo-positionnement satellitaire dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur : validité et comparaison avec l'accélérométrie.
+\[1\] Intérêt du géo-positionnement satellitaire dans l'estimation de la dépense énergétique lors de la marche et la course en extérieur : validité et comparaison avec l'accélérométrie.
 :::
 
 ::: journal
