@@ -16,13 +16,16 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: posts.qmd
-        text: Blog posts
-      - in_posts.qmd
-      - href: pubs.qmd
-        text: Publications
-      - href: coms.qmd
-        text: Communications
+      - text: "Scientific works"
+        menu: 
+        - pubs.qmd
+        - coms.qmd
+      - text: "Posts"
+        menu:
+        - href: posts.qmd
+          text: "Blog"
+        - href: in_posts.qmd
+          text: "LinkedIn"
     right: 
     - text: "{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}"
       href: https://bsky.app/profile/pydemullenheim.com

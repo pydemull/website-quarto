@@ -13,7 +13,6 @@
     }
 }
 
-
 /* website title */
 h1.title {
   font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -24,6 +23,15 @@ h1.title {
   margin-bottom: 1.5rem;
   line-height: 1;
   text-align: center;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  color: #066666;
+}
+
+.dropdown-item:hover {
+  background-color: #78c2ad;
 }
 
 /* footer */
@@ -48,7 +56,3 @@ h1.title {
   color: white;
 }
 
-/* bluesky icon */
-#bluesky {
-  color: red;
-}
