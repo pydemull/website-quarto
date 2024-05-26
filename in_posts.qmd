@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn posts"
+title: "LinkedIn"
 css: css/pubs.css
 ---
 
@@ -13,7 +13,7 @@ css: css/pubs.css
 31/12/2023 \| My most appreciated readings about open and reproducible research for the year 2023 <button class="btn-default"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7147294961242165248/">LINK</a> </button>
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7147294960357179392" height="500" width="100%" frameborder="0" allowfullscreen="" title="Post intégré">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7147294960357179392" height="500" width="100%" frameborder="0" allowfullscreen title="Post intégré">
 
 </iframe>
 
