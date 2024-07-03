@@ -1,11 +1,27 @@
 ---
-title: "Communications (39)"
+title: "Communications (40)"
 css: css/pubs.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+<br>
+
+<!--C40----------------------------------------------------------------------------->
+
+::: title
+\[40\] Patterns of sedentary time accumulation according to age in the United States: A 2003-2006 NHANES analysis.
+:::
+
+::: journal
+[\[Oral\] Communication presented at the 9th International Conference on Ambulatory Monitoring of Physical Activity and Movement (ICAMPAM), Rennes, France, June,]{.journal} June [2024.]{.date}
+:::
+
+::: authors
+**de Müllenheim P-Y**, Congnard F, Noury-Desvaux N.
+:::
 
 <br>
 
@@ -16,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE)
 :::
 
 ::: journal
-[\[Oral\] Communication présentée aux 22èmes Journées d’Etudes Francophones en Activité Physique Adaptée, Besançon, France, ]{.journal}Mai [2024.]{.date}
+[\[Oral\] Communication présentée aux 22èmes Journées d’Etudes Francophones en Activité Physique Adaptée, Besançon, France,]{.journal} Mai [2024.]{.date}
 :::
 
 ::: authors
@@ -32,7 +48,7 @@ Baranger C, Ghali A, **de Müllenheim P-Y**, Congnard F, Noury-Desvaux N.
 :::
 
 ::: journal
-[\[Oral\] Communication présentée aux 22èmes Journées d’Etudes Francophones en Activité Physique Adaptée, Besançon, France, ]{.journal}Mai [2024.]{.date}
+[\[Oral\] Communication présentée aux 22èmes Journées d’Etudes Francophones en Activité Physique Adaptée, Besançon, France,]{.journal} Mai [2024.]{.date}
 :::
 
 ::: authors
@@ -48,8 +64,7 @@ Allaire J, Congnard F, Noury-Desvaux N, **de Müllenheim P-Y**.
 :::
 
 ::: journal
-[\[Poster\] Communication présentée aux 22èmes Journées d’Etudes
-Francophones en Activité Physique Adaptée, Besançon, France, ]{.journal}Mai [2024.]{.date}
+[\[Poster\] Communication présentée aux 22èmes Journées d’Etudes Francophones en Activité Physique Adaptée, Besançon, France,]{.journal} Mai [2024.]{.date}
 :::
 
 ::: authors
@@ -213,7 +228,7 @@ Leroux E, Bickert S, Congnard F, **de Müllenheim P-Y**, Noury-Desvaux B.
 <!--C27----------------------------------------------------------------------------->
 
 ::: title
-\[27\] ffet du ratio temps d'effort : temps de récupération sur la capacité de marche de patients atteints d'une artériopathie oblitérante des membres inférieurs symptomatique.
+\[27\] Effet du ratio temps d'effort : temps de récupération sur la capacité de marche de patients atteints d'une artériopathie oblitérante des membres inférieurs symptomatique.
 :::
 
 ::: journal
@@ -261,7 +276,7 @@ Le Corre G, Michel C, **de Müllenheim P-Y**, Noury-Desvaux B, Congnard F.
 <!--C24----------------------------------------------------------------------------->
 
 ::: title
-\[24\] nfluence de la maturation biologique sur l'équilibre dynamique de jeunes joueurs de Football.
+\[24\] Influence de la maturation biologique sur l'équilibre dynamique de jeunes joueurs de Football.
 :::
 
 ::: journal
@@ -293,7 +308,7 @@ Simon D, **de Müllenheim P-Y**, Sallé A, Recoing B, Congnard F, Noury-Desvaux 
 <!--C22----------------------------------------------------------------------------->
 
 ::: title
-\[22\] 'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?
+\[22\] L'électrostimulation via VEINOPLUS® Sport à la mi-temps d'un match de Basketball : un bénéfice pour la performance ou un risque accru de blessures ?
 :::
 
 ::: journal
