@@ -8,7 +8,6 @@ h1.title {
   margin-top: 4rem;
   margin-bottom: 1.5rem;
   line-height: 1;
-  text-align: justify;
 }
 
 h1 {
@@ -17,13 +16,9 @@ h1 {
   font-size: 1.5rem;
   color: #066666;
   line-height: 1;
-  text-align: justify;
 }
 
 section {
   font-size: 1rem; 
 }
 
-p {
-  text-align: justify;
-}
