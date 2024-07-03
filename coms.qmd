@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 :::
 
 ::: authors
-Petit Q, Abraham P, Noury B, Durand, Chatrenet A, **de Müllenheim P-Y**, Congnard F, Gratton R, Guilleron C
+Petit Q, Abraham P, Noury B, Durand, Chatrenet A, **de Müllenheim P-Y**, Congnard F, Gratton R, Guilleron C.
 :::
 
 <br>
