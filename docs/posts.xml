@@ -9,7 +9,7 @@
 <link>https://www.pydemullenheim.com/posts.html</link>
 <atom:link href="https://www.pydemullenheim.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Movement, wearables, programming</description>
-<generator>quarto-1.4.549</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Mon, 14 Nov 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>How to make a figure with several panels that include plots that are initially invisible? The case of the {corrplot} package</title>
@@ -421,6 +421,7 @@ font-style: inherit;"># To clear layout</span></span></code></pre></div>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(matrix) {</span>
 <span id="cb9-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -640,7 +641,7 @@ loaded via a namespace (and not attached):
   <category>Correlation</category>
   <guid>https://www.pydemullenheim.com/posts/corrplot-multiplots/</guid>
   <pubDate>Mon, 14 Nov 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://www.pydemullenheim.com/docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png" height="50" width="144"/>
+  <media:content url="https://www.pydemullenheim.com/docs/posts/corrplot-multiplots/index_files/figure-html/unnamed-chunk-9-1.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Actilife software procedures to get vector magnitude counts: are the computations exactly the same?</title>
@@ -735,6 +736,7 @@ font-style: italic;">## removes the quotes).</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(file) {</span>
 <span id="cb1-22">  my_data <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -755,6 +757,7 @@ font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">lapply</span>(my_data, <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(x) { <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
@@ -772,6 +775,7 @@ font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">lapply</span>(my_data2, <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(x) { <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
@@ -1770,7 +1774,7 @@ font-style: inherit;">1-s epoch VM counts"</span>)</span></code></pre></div>
 </div>
 <div class="cell" data-hash="index_cache/html/fig-scatter_d88a2d47df5712c6c78cddb13a9ea2ad">
 <div class="cell-output-display">
-<div id="fig-scatter" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scatter" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-scatter-1.png" class="img-fluid figure-img" width="1152">
@@ -2186,7 +2190,7 @@ font-style: inherit;">"bold"</span>)</span>
 </div>
 <div class="cell" data-hash="index_cache/html/fig-barplots_277f2835b72d538a438d7843a8b0da90">
 <div class="cell-output-display">
-<div id="fig-barplots" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-barplots" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-barplots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://www.pydemullenheim.com/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" class="img-fluid figure-img" width="1152">
@@ -2219,6 +2223,7 @@ font-style: inherit;">30</span>, ]</span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(x) <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">rgb</span>(<span class="fu" style="color: #4758AB;
@@ -2263,6 +2268,7 @@ font-style: inherit;">colDef</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">style =</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>() <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="at" style="color: #657422;
@@ -2278,6 +2284,7 @@ font-style: inherit;">colDef</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">style =</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>() <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="at" style="color: #657422;
@@ -2293,6 +2300,7 @@ font-style: inherit;">colDef</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">style =</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>() <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="at" style="color: #657422;
@@ -2308,6 +2316,7 @@ font-style: inherit;">colDef</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">style =</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>() <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="at" style="color: #657422;
@@ -2318,7 +2327,7 @@ font-style: inherit;">"#F0E442"</span>))</span>
 <span id="cb4-10">       )</span>
 <span id="cb4-11">)</span></code></pre></div>
 </details>
-<div id="fig-table" class="cell-output-display quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-table" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ef7f51c9961323f3a32c" style="width:auto;height:auto;"></div>
@@ -2377,7 +2386,7 @@ John, D., &amp; Freedson, P. (2012). <span>ActiGraph</span> and <span>Actical</s
   <category>vector magnitude</category>
   <guid>https://www.pydemullenheim.com/posts/actigraph-vm-counts/</guid>
   <pubDate>Thu, 30 Jun 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://www.pydemullenheim.com/docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://www.pydemullenheim.com/docs/posts/actigraph-vm-counts/index_files/figure-html/fig-barplots-1.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>
