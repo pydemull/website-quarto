@@ -1,11 +1,41 @@
 ---
-title: "Publications (18)"
+title: "Publications (19)"
 css: css/pubs.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+<br>
+
+<!--P19---------------------------------------------------------------------------------------------------->
+
+::: title
+\[19\] Effets des encouragements sur l’engagement des élèves en demi-fond : une méthode mixte de recherche fondée sur l’articulation de données de vitesse et d’expérience.
+:::
+
+::: journal
+[Recherches & éducations]{.journal} [2024.]{.date}
+:::
+
+::: authors
+Montois T, **de Müllenheim PY**, Terré N.
+:::
+
+<!--Link-->
+
+<button class="btn-default">
+
+<a href="https://journals.openedition.org/rechercheseducations/17097">DOI</a>
+
+</button>
+
+<button class="btn-default">
+
+<a href="https://osf.io/gp8js/">OSF</a>
+
+</button>
 
 <br>
 
