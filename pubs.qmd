@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 :::
 
 ::: journal
-[Recherches & éducations]{.journal} [2024.]{.date}
+[Recherches & éducations]{.journal}. [2024.]{.date}
 :::
 
 ::: authors
