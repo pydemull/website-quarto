@@ -1,21 +1,27 @@
 /* navbar title */
 @media screen and (min-width: 0px) and (max-width: 768px) {
      .navbar-title {
-       font-weight: bold;
        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 4000px) {
      .navbar-title {
-       font-weight: bold;
        font-size: 20px;
     }
 }
 
 /* website title */
+@media (min-width: 992px) {
+body .page-columns {
+    display: grid;
+    gap: 0;
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 210px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(850px - 3em)) [body-content-end] 1.5em [body-end] 35px [body-end-outset] minmax(75px, 145px) [page-end-inset] 35px [page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+}
+}
+
+
 h1.title {
-  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: bold;
   font-size: 2.6rem;
   color: #066666;
@@ -37,10 +43,19 @@ h1.title {
 /* footer */
 .footer {
   height: auto;
+  padding: 0;
+  min-width: 100%;
+  margin: 0;
+  auto; display: 
+  block;
 }
 .nav-footer {
-  margin: 0;
+  height: auto;
   padding: 0;
+  min-width: 100%;
+  margin: 0;
+  auto; display: 
+  block;
 }
 .nav-footer-center {
   height: auto;

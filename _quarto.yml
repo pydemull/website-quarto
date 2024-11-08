@@ -9,7 +9,6 @@ website:
   open-graph: true
   reader-mode: true
   repo-url: https://github.com/pydemull/website-quarto
-  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
@@ -41,20 +40,12 @@ website:
       href: https://scholar.google.com/citations?hl=fr&user=XrIzAj8AAAAJ
     - text: "{{< iconify fa6-brands researchgate size=lg >}}"
       href: https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2
-  page-navigation: true
   page-footer: 
     center: "Copyright © 2022-2024 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
   favicon: img/logo.ico
   twitter-card: true
-  google-analytics: 
-    tracking-id: "G-7HEZQCLYGS"
-    anonymize-ip: true
-  cookie-consent:
-    type: express
-    style: headline
-    palette: light
 
 format:
   html:
