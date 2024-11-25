@@ -1,0 +1,84 @@
+h1.title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #066666;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #066666;
+  line-height: 1.2rem;
+}
+
+.authors{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.journal{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.date{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+
+}
+
+.btn-default{
+  font-size: 0.8rem;
+  color: #56cc9d; 
+  background-color: white; 
+  border-color: #56cc9d;
+  border-radius: 15%;
+  height: 37px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.btn-default:hover{
+  font-size: 0.8rem;
+  color: white; 
+  background-color: #56cc9d; 
+  border-color: #56cc9d;
+  border-radius: 15%;
+  height: 37px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #56cc9d; 
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.btn-default:hover a { 
+  color: white;
+}
+
+.nav-footer a {
+    color: #fff;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
