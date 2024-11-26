@@ -43,7 +43,6 @@ reactable(
   searchable = TRUE,
   minRows = 1, 
   showPageSizeOptions = TRUE,
-  pageSizeOptions = c(10, 20),
   defaultPageSize = 100,
   paginationType = "jump",
   strip = TRUE,
