@@ -1,9 +1,6 @@
 ---
 title: "Publications"
 css: css/pubs.css
-format:
-  html:
-    page-layout: full
 execute: 
   echo: false
   warning: false
@@ -22,14 +19,18 @@ library(stringr)
 df <-
   read_excel("cv/data/infos.xlsx", sheet = "Publications") |> 
   arrange(-ID) |> 
-  select(
-    ID, 
-    Year, 
-    Title, 
-    Authors, 
-    Journal,
-    Type
-    ) 
+  mutate(
+    Authors = str_replace_all(Authors, "de Müllenheim PY", "<b>de Müllenheim PY</b>"),
+    Title = paste0("<b>", Title, "</b>"),
+    Journal = paste0("<I>", Journal, "</I>"),
+    Item = paste0(
+      Title, "<br> ",
+      Authors, "<br> ",
+      Journal
+    )
+  ) |> 
+  select(ID, Year, Item, Type) |> 
+  rename(No = ID)
 ```
 
 ```{r show_data}
@@ -42,12 +43,13 @@ reactable(
   paginationType = "jump",
   strip = TRUE,
   columns = list(
-    ID = colDef(minWidth = 50),
-    Year = colDef(minWidth = 80),
-    Title = colDef(minWidth = 300),
-    Authors = colDef(minWidth = 300),
-    Journal = colDef(minWidth = 120),
-    Type = colDef(minWidth = 120)
+    No = colDef(minWidth = 50, align = "center"),
+    Year = colDef(minWidth = 80, align = "center"),
+    Type = colDef(minWidth = 80, align = "center"),
+    Item = colDef(
+              minWidth = 300,
+              html = TRUE
+    )
   )
 )
 ```
