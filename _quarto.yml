@@ -41,7 +41,7 @@ website:
     - text: "{{< iconify fa6-brands researchgate size=lg >}}"
       href: https://www.researchgate.net/profile/Pierre-Yves-De-Muellenheim-2
   page-footer: 
-    center: "Copyright © 2022-2024 Pierre-Yves de Müllenheim"
+    center: "Copyright © 2022-2025 Pierre-Yves de Müllenheim"
     background: primary
     foreground: "white"
   favicon: img/logo.ico
