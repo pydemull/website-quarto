@@ -1,0 +1,55 @@
+---
+title: "Preprints"
+css: css/pubs.css
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r load_packages}
+library(dplyr)
+library(htmltools)
+library(reactable)
+library(readxl)
+library(stringr)
+```
+
+```{r import_data}
+df <-
+  read_excel("cv/data/infos.xlsx", sheet = "Preprints") |> 
+  arrange(-ID) |> 
+  mutate(
+    Authors = str_replace_all(Authors, "de Müllenheim PY", "<b>de Müllenheim PY</b>"),
+    Title = paste0("<b>", Title, "</b>"),
+    Journal = paste0("<I>", Journal, "</I>"),
+    Item = paste0(
+      Title, "<br> ",
+      Authors, "<br> ",
+      Journal
+    )
+  ) |> 
+  select(ID, Year, Item, Type) |> 
+  rename(No = ID)
+```
+
+```{r show_data}
+reactable(
+  df,
+  searchable = TRUE,
+  minRows = 1, 
+  showPageSizeOptions = TRUE,
+  defaultPageSize = 100,
+  paginationType = "jump",
+  strip = TRUE,
+  columns = list(
+    No = colDef(minWidth = 50, align = "center"),
+    Year = colDef(minWidth = 80, align = "center"),
+    Type = colDef(minWidth = 80, align = "center"),
+    Item = colDef(
+              minWidth = 300,
+              html = TRUE
+    )
+  )
+)
+```
