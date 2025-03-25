@@ -29,7 +29,7 @@ website:
     right: 
     - text: "{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}"
       href: https://bsky.app/profile/pydemullenheim.com
-    - text: "{{< iconify fa6-brands square-x-twitter size=lg >}}"
+    - text: "{{< iconify fa6-brands mastodon size=lg >}}"
       href: https://fosstodon.org/@pydemullenheim
     - text: "{{< iconify fa6-brands linkedin size=lg >}}"
       href: https://www.linkedin.com/in/pierre-yves-de-m%C3%BCllenheim-03a75572
