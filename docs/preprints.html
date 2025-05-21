@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fc190d3f798de988c7abeaf6b5527284.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-1.0.0-beta.2/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -222,8 +222,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="cell">
 <div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="htmlwidget-1476f6ac31c14dabec41" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-1476f6ac31c14dabec41">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"No":[1],"Year":[2024],"Item":["<b>Change in exercise capacity, physical activity and motivation for physical activity at 12 months after a cardiac rehabilitation program in coronary heart disease patients: a prospective, monocentric and observational study [Peer-reviewed]<\/b><br> Da Ros Vettoretto P, Bouffart AM, Gourronc Y, Baron AV, Gaumé M, Congnard F, Noury-Desvaux B, <b>de Müllenheim PY<\/b><br> <I>PCI Health & Mov Sci<\/I>"],"Type":["Original"]},"columns":[{"id":"No","name":"No","type":"numeric","minWidth":50,"align":"center"},{"id":"Year","name":"Year","type":"numeric","minWidth":80,"align":"center"},{"id":"Item","name":"Item","type":"character","html":true,"minWidth":300},{"id":"Type","name":"Type","type":"character","minWidth":80,"align":"center"}],"searchable":true,"defaultPageSize":100,"showPageSizeOptions":true,"paginationType":"jump","minRows":1,"striped":true,"dataKey":"38c337ffe85b14d97d4f5e96ee362a3e"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-6afe2ce5d5438f6dff0d" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-6afe2ce5d5438f6dff0d">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"No":[1],"Year":[2024],"Item":["<b>Change in exercise capacity, physical activity and motivation for physical activity at 12 months after a cardiac rehabilitation program in coronary heart disease patients: a prospective, monocentric and observational study [Peer-reviewed]<\/b><br> Da Ros Vettoretto P, Bouffart AM, Gourronc Y, Baron AV, Gaumé M, Congnard F, Noury-Desvaux B, <b>de Müllenheim PY<\/b><br> <I>PCI Health & Mov Sci<\/I>"],"Type":["Original"]},"columns":[{"id":"No","name":"No","type":"numeric","minWidth":50,"align":"center"},{"id":"Year","name":"Year","type":"numeric","minWidth":80,"align":"center"},{"id":"Item","name":"Item","type":"character","html":true,"minWidth":300},{"id":"Type","name":"Type","type":"character","minWidth":80,"align":"center"}],"searchable":true,"defaultPageSize":100,"showPageSizeOptions":true,"paginationType":"jump","minRows":1,"striped":true,"dataKey":"38c337ffe85b14d97d4f5e96ee362a3e"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -312,8 +312,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -424,7 +422,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
