@@ -1,0 +1,21 @@
+/* css styles */
+.nav-footer {
+  padding-top: 1.5em;
+}
+
+#references {
+  color: white;
+}
+
+h1.title {
+  font-family: 'Open Sans Condensed', Roboto, Helvetica, Arial, sans;
+  font-weight: bold;
+  font-size: 50px;
+  color: #066666;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+
