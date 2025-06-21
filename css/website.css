@@ -1,5 +1,5 @@
 
-/* navbar title */
+/* Navbar title */
 @media screen and (min-width: 0px) and (max-width: 768px) {
      .navbar-title {
        font-size: 15px;
@@ -12,7 +12,7 @@
     }
 }
 
-/* website title */
+/* Website title */
 @media (min-width: 992px) {
 body .page-columns {
     display: grid;
@@ -21,7 +21,7 @@ body .page-columns {
 }
 }
 
-
+/* Title 1 */
 h1.title {
   font-weight: bold;
   font-size: 2.6rem;
@@ -41,7 +41,7 @@ h1.title {
   background-color: #78c2ad;
 }
 
-/* footer */
+/* Footer */
 .footer {
   height: auto;
   padding: 0;
@@ -50,6 +50,7 @@ h1.title {
   auto; display: 
   block;
 }
+
 .nav-footer {
   height: auto;
   padding: 0;
@@ -58,6 +59,7 @@ h1.title {
   auto; display: 
   block;
 }
+
 .nav-footer-center {
     text-align: center;
     margin: 0;
@@ -73,12 +75,11 @@ h1.title {
 }
 
 /* Post titles */
-
   h3.listing-title a {
     font-weight: bold !important;
   }
 
-/* references */
+/* References */
 #references {
   color: white;
 }

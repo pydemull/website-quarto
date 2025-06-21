@@ -26,7 +26,8 @@ df <-
     Item = paste0(
       Title, "<br> ",
       Authors, "<br> ",
-      Journal
+      Journal, "<br> ",
+      '<a href="', link, '">', doi, '</a>'
     )
   ) |> 
   select(ID, Year, Item, Type) |> 
